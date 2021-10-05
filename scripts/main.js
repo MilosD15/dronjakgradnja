@@ -74,11 +74,11 @@ window.addEventListener("click", e => {
     // }
 });
 // disabling context menu
-window.oncontextmenu = function (e) {
-    e.preventDefault();
-    e.stopPropagation();
-    return false;
-};
+//window.oncontextmenu = function (e) {
+//    e.preventDefault();
+//    e.stopPropagation();
+//    return false;
+//};
 // getting sliders width
 var root = document.querySelector(":root");
 var slidersWidth = getComputedStyle(root).getPropertyValue("--services-sliders-width");
