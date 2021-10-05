@@ -1,0 +1,234 @@
+/* 
+                        Table of contents
+
+                    1. 'contact-us' section styling
+                    2. media queries
+
+*/
+/* 1. 'contact-us' section styling */
+main #contact_sec {
+    height: var(--contact-section-height);
+    width: 100%;
+    background-color: #B3CEFA;
+    font-family: "Rosario", sans-serif;
+    color: #15438F;
+    --font-size-big: 2.3rem;
+    --font-size-normal: 1.7rem;
+    --font-size-small: 1.5rem;
+}
+main #contact_sec ::-moz-selection {
+    background-color: white;
+    color: #15438F;
+}
+main #contact_sec ::selection {
+    background-color: white;
+    color: #15438F;
+}
+main #contact_sec h1 {
+    font-family: inherit;
+    font-size: var(--font-size-big);
+    font-weight: 300;
+    color: inherit;
+    padding: 5% 0 3% 8%;
+}
+main #contact_sec p {
+    font-family: inherit;
+    font-size: var(--font-size-normal);
+    color: inherit;
+    padding-left: 8%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+main #contact_sec .row {
+    background-color: inherit;
+    width: 100%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    margin-left: 8%;
+    font-family: inherit;
+    display: flex;
+    font-size: var(--font-size-normal);
+}
+main #contact_sec .row:last-child {
+    padding-bottom: 5%;
+}
+main #contact_sec .row .half-row {
+    background-color: inherit;
+    width: 40%;
+    float: left; 
+    font-family: inherit;
+    font-size: inherit;
+    /* background-color: khaki; */
+}
+main #contact_sec .row .half-row:last-child {
+    margin-left: 8%;
+}
+main #contact_sec .row .half-row label {
+    display: block;
+    width: 100%;
+    font-size: inherit;
+}
+main #contact_sec .row .half-row input {
+    display: block;
+    width: 80%;
+    font-size: var(--font-size-small);
+    border: none;
+    border-bottom: 2px solid #15438F;
+    background-color: transparent;
+    padding: 0.5em;
+    color: white;
+    font-family: inherit;
+}
+main #contact_sec .row .whole-row {
+    /* background-color: khaki; */
+    width: 80%;
+    font-size: inherit;
+}
+main #contact_sec .row .whole-row label {
+    display: block;
+    width: 100%;
+    font-size: inherit;
+}
+main #contact_sec .row .whole-row textarea {
+    display: block;
+    width: 100%;
+    font-size: var(--font-size-small);
+    border: none;
+    border-bottom: 2px solid #15438F;
+    background-color: transparent;
+    padding: 0.5em;
+    color: white;
+    font-family: inherit;
+    resize: none;
+    min-height: 10rem;
+    overflow-y: hidden;
+}
+main #contact_sec .row button {
+    border: none;
+    background-color: #4284F3;
+    color: white;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 1.4rem;
+    cursor: pointer;
+    padding: 0.5em 0.8em;
+    border-radius: 0.4em;
+    transition: background-color 0.3s ease;
+}
+main #contact_sec .row button:hover,
+main #contact_sec .row button:focus {
+    background-color: #1c6bf5;
+}
+main #contact_sec h1,
+main #contact_sec p,
+main #contact_sec .row .half-row,
+main #contact_sec .row .whole-row,
+main #contact_sec .row button {
+    transform: translateX(-200px);
+    opacity: 0;
+}
+/* 2. MEDIA QUERIES */
+@media screen and (max-width: 1150px) {
+    main #contact_sec {
+        --font-size-big: 2.1rem;
+        --font-size-normal: 1.5rem;
+        --font-size-small: 1.4rem;
+    }
+    main #contact_sec .row button {
+        font-size: 1.25rem;
+    }
+}
+@media screen and (max-width: 1050px) {
+    main #contact_sec .row .half-row {
+        width: 45%;
+    }
+    main #contact_sec .row .half-row:last-child {
+        margin-left: 3%;
+    }
+    main #contact_sec .row .whole-row {
+        width: 84%;
+    }
+}
+@media screen and (max-width: 900px) {
+    main #contact_sec {
+        --font-size-big: 2rem;
+        --font-size-normal: 1.4rem;
+        --font-size-small: 1.3rem;
+    }
+    main #contact_sec .row button {
+        font-size: 1.2rem;
+    }
+}
+@media screen and (max-width: 750px) {
+    main #contact_sec {
+        --font-size-big: 2.3rem;
+        --font-size-normal: 1.7rem;
+        --font-size-small: 1.5rem;
+    }
+    main #contact_sec .row button {
+        font-size: 1.4rem;
+    }
+    main #contact_sec .row:first-child {
+        flex-direction: column;
+    }
+    main #contact_sec .row .half-row {
+        padding-top: 3%;
+        padding-bottom: 3%;
+        width: 65%;
+    }
+    main #contact_sec .row .half-row:last-child {
+        width: 85%;
+    }
+    main #contact_sec .row .half-row:last-child {
+        margin-left: 0;
+    }
+}
+@media screen and (max-width: 630px) {
+    main #contact_sec {
+        --font-size-big: 2rem;
+        --font-size-normal: 1.4rem;
+        --font-size-small: 1.3rem;
+    }
+    main #contact_sec .row button {
+        font-size: 1.2rem;
+    }
+    main #contact_sec p {
+        padding-right: 8%;
+    }
+    main #contact_sec .row,
+    main #contact_sec .row .half-row {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+    main #contact_sec h1 {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+    main #contact_sec .row:last-child {
+        padding-bottom: 2rem;
+    }
+}
+@media screen and (max-width: 500px) {
+    main #contact_sec .row .half-row {
+        width: 85%;
+    }
+    main #contact_sec .row .half-row:last-child {
+        width: 105%;
+    }
+}
+@media screen and (max-width: 380px) {
+    main #contact_sec {
+        --font-size-big: 1.65rem;
+        --font-size-normal: 1.15rem;
+        --font-size-small: 1rem;
+    }
+    main #contact_sec .row button {
+        font-size: 1rem;
+    }
+    main #contact_sec .row .half-row {
+        width: 105%;
+    }
+    main #contact_sec .row .half-row input,
+    main #contact_sec .row .whole-row textarea {
+        border-width: 1px;
+    }
+}

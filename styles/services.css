@@ -1,0 +1,580 @@
+/* 
+                        Table of contents
+
+                    1. general styles for all services
+                    2. SPECIFIC STYLES
+                        2.1 painter and gypsum works section
+                        2.2 electrican and additional works section
+                    3. ANIMATIONS
+                    4. MEDIA QUERIES
+
+*/
+/* 1. GENERAL STYLES FOR ALL SERVICES */
+main .services {
+    height: var(--services-section-height);
+    width: 100%;
+    background-color: white;
+}
+main .services .service {
+    width: 100%;
+    height: auto;
+}
+main .services .service .text {
+    font-family: "Rosario", sans-serif;
+    width: 50%;
+    height: 500px;
+    background-color: inherit;
+    padding: 7% 0 5% 5%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    color: #726351;
+}
+main .services .service .text .wrapper {
+    color: inherit;
+    font-family: inherit;
+}
+main .services .service .text .wrapper h1 {
+    padding: 0 0 1.5em 0.9em;
+    font-size: 2.3rem;
+    font-weight: 300;
+    font-family: inherit;
+    color: inherit;
+}
+main .services .service .text .wrapper ul {
+    list-style-type: circle;
+    color: inherit;
+    font-size: 1.7rem;
+    padding: 0 0 1.2em 1.2em;
+    font-family: inherit;
+}
+main .services .service .text .wrapper ul li {
+    font-family: inherit;
+    font-size: inherit;
+    margin: 0.6em 0 0 2.4em;
+    padding-left: 0.3em;
+}
+main .services .service .text .wrapper ul li:first-child {
+    margin-top: .7em;
+}
+main .services .service .images {
+    float: left;
+    width: 50%;
+    height: 500px;
+    background-color: inherit;
+    position: relative;
+}
+main .services .service .images .slider {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    overflow: hidden;
+    width: var(--services-sliders-width);
+    height: 350px;
+    border-radius: 10px;
+}
+main .services .service .images .slider .btn {
+    width: auto;
+    height: auto;
+    cursor: pointer;
+}
+main .services .service .images .slider .btn i.fas {
+    color: rgb(58, 58, 58);
+    position: absolute;
+    font-size: 2rem;
+    top: 50%;
+    transform: translateY(-50%);
+    /* background-color: khaki; */
+    z-index: 2;
+    transition: color 0.4s ease;
+}
+main .services .service .images .slider .btn i.left {
+    left: 2px;
+}
+main .services .service .images .slider .btn i.right {
+    right: 2px;
+}
+main .services .service .images .slider .btn .half-circle {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 70px;
+    height: 70px;
+    background-color: white;
+    z-index: 1;
+    border-radius: 50%;
+    transition: background-color 0.4s ease;
+}
+main .services .service .images .slider .btn div.left {
+    left: -35px;
+}
+main .services .service .images .slider .btn div.right {
+    right: -35px;
+}
+main .services .service .images .slider .content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+main .services .service .images .slider .content img {
+    min-width: 100%;
+    height: 100%;
+    -o-object-position: center;
+       object-position: center;
+    transition: transform 0.5s ease;
+}
+main .services .service .images .slider .disabled {
+    cursor: not-allowed;
+}
+main .services .service .images .slider .disabled .half-circle {
+    background-color: rgb(228, 228, 228);
+}
+main .services .service .images .slider .disabled i.fas {
+    color: rgb(83, 83, 83);
+}
+/* 2. SPECIFIC STYLES */
+/* 2.1 painter and gypsum works section */
+main .services .painting,
+main .services .gypsum_works {
+    background-color: var(--light-main-color);
+}
+main .services .painting .text,
+main .services .gypsum_works .text {
+    float: left;
+}
+main .services .painting .text .wrapper h1,
+main .services .gypsum_works .text .wrapper h1,
+main .services .painting .text .wrapper ul,
+main .services .gypsum_works .text .wrapper ul,
+main .services .painting .text .wrapper ul .first-li,
+main .services .gypsum_works .text .wrapper ul .first-li,
+main .services .painting .text .wrapper ul .second-li,
+main .services .gypsum_works .text .wrapper ul .second-li,
+main .services .painting .text .wrapper ul .third-li,
+main .services .gypsum_works .text .wrapper ul .third-li {
+    transform: translateX(-200px);
+    opacity: 0;
+}
+main .services .painting .text .wrapper ul {
+    list-style-image: url("../images/list-style-image-painting-large-screen.png");
+}
+main .services .gypsum_works .text .wrapper ul {
+    list-style-image: url("../images/list-style-image-gypsum-large-screen.png");
+}
+main .services .painting .images .painting_slider,
+main .services .gypsum_works .images .gypsum_slider {
+    transform: translate(200px, -50%);
+    opacity: 0;
+    box-shadow: 0 0 6px 6px white;
+}
+/* 2.2 electrican and additional works section */
+main .services .electrican_works ::-moz-selection, main .services .additional ::-moz-selection {
+    background-color: var(--light-main-color);
+    color: var(--dark-main-color);
+}
+main .services .electrican_works ::selection,
+main .services .additional ::selection {
+    background-color: var(--light-main-color);
+    color: var(--dark-main-color);
+}
+main .services .electrican_works,
+main .services .additional {
+    background-color: white;
+}
+main .services .electrican_works .text,
+main .services .additional .text {
+    float: right;
+    padding-top: 8%;
+}
+main .services .electrican_works .text .wrapper h1,
+main .services .additional .text .wrapper h1,
+main .services .electrican_works .text .wrapper ul,
+main .services .additional .text .wrapper ul,
+main .services .electrican_works .text .wrapper ul .first-li,
+main .services .additional .text .wrapper ul .first-li,
+main .services .electrican_works .text .wrapper ul .second-li,
+main .services .additional .text .wrapper ul .second-li,
+main .services .electrican_works .text .wrapper ul .third-li,
+main .services .additional .text .wrapper ul .third-li {
+    transform: translateX(200px);
+    opacity: 0;
+}
+main .services .electrican_works .text .wrapper ul {
+    list-style-image: url("../images/list-style-image-electrician-large-screen.png");
+}
+main .services .additional .text .wrapper ul {
+    list-style-image: url("../images/list-style-image-additional-large-screen.png");
+}
+main .services .electrican_works .images .electrican_slider {
+    border: 5px solid #9F4C16;
+}
+main .services .additional .images .additional_slider {
+    border: 5px solid #EAAC6D;
+}
+main .services .electrican_works .images .electrican_slider,
+main .services .additional .images .additional_slider {
+    transform: translate(-200px, -50%);
+    opacity: 0;
+}
+/* 3. ANIMATIONS */
+@-webkit-keyframes slideLeftSlider {
+    from {
+        transform: translate(200px, -50%);
+        opacity: 0;
+    }
+    to {
+        transform: translate(-50%, -50%);
+        opacity: 1;
+    }
+}
+@keyframes slideLeftSlider {
+    from {
+        transform: translate(200px, -50%);
+        opacity: 0;
+    }
+    to {
+        transform: translate(-50%, -50%);
+        opacity: 1;
+    }
+}
+@-webkit-keyframes slideRightSlider {
+    from {
+        transform: translate(-400px, -50%);
+        opacity: 0;
+    }
+    to {
+        transform: translate(-50%, -50%);
+        opacity: 1;
+    }
+}
+@keyframes slideRightSlider {
+    from {
+        transform: translate(-400px, -50%);
+        opacity: 0;
+    }
+    to {
+        transform: translate(-50%, -50%);
+        opacity: 1;
+    }
+}
+/* 4. MEDIA QUERIES */
+@media screen and (min-width: 1500px) { 
+    main .services .service .text {
+        padding-top: 5rem;
+    }
+}
+@media screen and (max-width: 1300px) {
+    main .services .service .text {
+        width: 45%;
+    }
+    main .services .service .images {
+        width: 55%;
+    }
+    main .services .additional .images,
+    main .services .additional .text {
+        width: 50%;
+    }
+}
+@media screen and (max-width: 1250px) {
+    main .services .service .text {
+        padding-left: 3%;
+    }
+}
+@media screen and (max-width: 1200px) {
+    :root {
+        --services-sliders-width: 520px;
+    }
+    main .services .service .images .slider {
+        height: 320px;
+    }
+    main .services .additional .text .wrapper ul {
+        padding-right: 0.5em;
+    }
+}
+@media screen and (max-width: 1150px) {
+    main .services .service .text,
+    main .services .service .images {
+        height: 450px;
+    }
+    main .services .service .text .wrapper h1 {
+        font-size: 2.1rem;
+    }
+    main .services .service .text .wrapper ul {
+        font-size: 1.5rem;
+    }
+}
+@media screen and (max-width: 1050px) {
+    :root {
+        --services-sliders-width: 90%;
+    }
+    main .services .service .images .slider {
+        height: auto;
+        aspect-ratio: 16/10;
+    }
+    main .services .service .text {
+        justify-content: center;
+        padding: 0;
+        padding-top: 8%;
+    }
+    main .services .service .text .wrapper {
+        width: 100%;
+    }
+    main .services .electrican_works .text,
+    main .services .additional .text {
+        padding-top: 9%;
+    }
+    main .services .additional .images {
+        width: 55%;
+    }
+    main .services .additional .text {
+        width: 45%;
+    }
+    /* main .services .electrican_works .text .wrapper h1,
+    main .services .additional .text .wrapper h1 {
+        padding-left: 1em;
+        padding-right: 0.9em;
+    } */
+    main .services .electrican_works .text .wrapper ul,
+    main .services .additional .text .wrapper ul {
+        padding-left: 0.7em;
+        padding-right: 1.2em;
+    }
+    main .services .additional .text {
+        padding-top: 7%;
+    }
+}
+@media screen and (max-width: 930px) {
+    main .services .service .text .wrapper h1 {
+        padding-bottom: 1em;
+    }
+    main .services .electrican_works .text,
+    main .services .additional .text {
+        padding-top: 10%;
+    }
+}
+@media screen and (max-width: 900px) {
+    main .services .service .text .wrapper h1 {
+        font-size: 2rem;
+    }
+    main .services .service .text .wrapper ul {
+        font-size: 1.4rem;
+    }
+    main .services .painting .text .wrapper ul {
+        list-style-image: url("../images/list-style-image-painting-small-screen.png");
+    }
+    main .services .electrican_works .text .wrapper ul {
+        list-style-image: url("../images/list-style-image-electrician-small-screen.png");
+    }
+    main .services .gypsum_works .text .wrapper ul {
+        list-style-image: url("../images/list-style-image-gypsum-small-screen.png");
+    }
+    main .services .additional .text .wrapper ul {
+        list-style-image: url("../images/list-style-image-additional-small-screen.png");
+    }
+    main .services .service .text,
+    main .services .service .images {
+        height: 380px;
+    }
+    main .services .additional .text {
+        padding-top: 7%;
+    }
+}
+@media screen and (max-width: 850px) {
+    :root {
+        --services-sliders-width: 85%;
+    }
+    main .services .service .text .wrapper ul li {
+        margin-top: .3em;
+    }
+    main .services .electrican_works .text {
+        padding-top: 12%;
+    }
+    main .services .additional .text {
+        padding-top: 8%;
+    }
+}
+@media screen and (max-width: 800px) {
+    main .services .service .text,
+    main .services .service .images {
+        width: 50%;
+    }
+    :root {
+        --services-sliders-width: 90%;
+    }
+    main .services .service .images .slider {
+        aspect-ratio: 16/11;
+    }
+    main .services .service .images .slider .btn i.fas {
+        font-size: 1.8rem;
+    }
+    main .services .service .images .slider .btn .half-circle {
+        width: 60px;
+        height: 60px;
+    }
+    main .services .service .images .slider .btn div.left {
+        left: -30px;
+    }
+    main .services .service .images .slider .btn div.right {
+        right: -30px;
+    }
+    main .services .painting .text,
+    main .services .gypsum_works .text {
+        padding-top: 9%;
+    }
+}
+@media screen and (max-width: 750px) {
+    main .services .service .text {
+        height: auto;
+        justify-content: flex-start;
+        /* padding-bottom: 1.5rem; */
+    }
+    main .services .service .text,
+    main .services .service .images {
+        width: 100%;
+    }
+    :root {
+        --services-sliders-width: 85%;
+    }
+    main .services .service .images .slider {
+        aspect-ratio: 16/10;
+    }
+    main .services .service .text .wrapper {
+        padding-left: 2rem;
+    }
+    main .services .service .text .wrapper h1 {
+        font-size: 2.3rem;
+    }
+    main .services .service .text .wrapper ul {
+        font-size: 1.7rem;
+        padding-bottom: 0;
+    }
+    main .services .service .images {
+        aspect-ratio: 16/11;
+        height: auto;
+    }
+    /* main .services .electrican_works .images .electrican_slider {
+        width: 85%;
+    } */
+    main .services .service .images .slider .btn i.fas {
+        font-size: 2rem;
+    }
+    main .services .service .images .slider .btn .half-circle {
+        width: 70px;
+        height: 70px;
+    }
+    main .services .service .images .slider .btn div.left {
+        left: -35px;
+    }
+    main .services .service .images .slider .btn div.right {
+        right: -35px;
+    }
+    main .services .painting .text .wrapper ul {
+        list-style-image: url("../images/list-style-image-painting-large-screen.png");
+    }
+    main .services .electrican_works .text .wrapper ul {
+        list-style-image: url("../images/list-style-image-electrician-large-screen.png");
+    }
+    main .services .gypsum_works .text .wrapper ul {
+        list-style-image: url("../images/list-style-image-gypsum-large-screen.png");
+    }
+    main .services .additional .text .wrapper ul {
+        list-style-image: url("../images/list-style-image-additional-large-screen.png");
+    }
+    main .services .electrican_works .text .wrapper h1,
+    main .services .additional .text .wrapper h1 {
+        padding-right: 0;
+        padding-left: 0.9em;
+    }
+    main .services .electrican_works .text .wrapper ul,
+    main .services .additional .text .wrapper ul {
+        padding-right: 0;
+        padding-left: 1.2em;
+    }
+    main .services .painting .text,
+    main .services .electrican_works .text {
+        padding-top: 7%;
+    }
+}
+@media screen and (max-width: 630px) {
+    main .services .service .text .wrapper h1 {
+        font-size: 2rem;
+    }
+    main .services .service .text .wrapper ul {
+        font-size: 1.4rem;
+    }
+}
+@media screen and (max-width: 530px) {
+    main .services .service .text .wrapper h1 {
+        font-size: 1.8rem;
+    }
+    main .services .service .text .wrapper ul {
+        font-size: 1.3rem;
+    }
+    main .services .service .images .slider .btn i.fas {
+        font-size: 1.8rem;
+    }
+    main .services .service .images .slider .btn .half-circle {
+        width: 60px;
+        height: 60px;
+    }
+    main .services .service .images .slider .btn div.left {
+        left: -30px;
+    }
+    main .services .service .images .slider .btn div.right {
+        right: -30px;
+    }
+}
+@media screen and (max-width: 500px) {
+    main .services .service .text .wrapper h1,
+    main .services .service .text .wrapper ul {
+        padding-left: 0;
+    }
+    main .services .service .images {
+        aspect-ratio: 16/12;
+    }
+    main .services .painting .text .wrapper ul {
+        list-style-image: url("../images/list-style-image-painting-small-screen.png");
+    }
+    main .services .electrican_works .text .wrapper ul {
+        list-style-image: url("../images/list-style-image-electrician-small-screen.png");
+    }
+    main .services .gypsum_works .text .wrapper ul {
+        list-style-image: url("../images/list-style-image-gypsum-small-screen.png");
+    }
+    main .services .additional .text .wrapper ul {
+        list-style-image: url("../images/list-style-image-additional-small-screen.png");
+    }
+}
+@media screen and (max-width: 420px) {
+    main .services .service .text {
+        padding-left: 2.5%;
+    }
+    main .services .service .text .wrapper {
+        width: 95%;
+        padding-left: 20px;
+    }
+    :root {
+        --services-sliders-width: 90%;
+    }
+    main .services .service .images .slider .btn i.fas {
+        font-size: 1.6rem;
+    }
+    main .services .service .images .slider .btn .half-circle {
+        width: 50px;
+        height: 50px;
+    }
+    main .services .service .images .slider .btn div.left {
+        left: -25px;
+    }
+    main .services .service .images .slider .btn div.right {
+        right: -25px;
+    }
+}
+@media screen and (max-width: 380px) {
+    main .services .service .text .wrapper h1 {
+        font-size: 1.6rem;
+    }
+    main .services .service .text .wrapper ul {
+        font-size: 1.1rem;
+    }
+}

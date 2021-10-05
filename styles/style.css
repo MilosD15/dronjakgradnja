@@ -1,0 +1,857 @@
+  /* 
+  
+                        TABLE OF CONTENTS
+
+                    1. Basic styling
+                    2. Variables
+                    3. Selection styling
+                    4. Scrillbar styling
+                    5. Main container styling
+                    6. styling pop-up for large slider images
+                    7. styling btn for opening pop-up for large slider images
+                    8. styling container for alert messages
+                    9. RESOURCES CON STYLING
+                    10. LANGUAGE MENU AND CONTAINER STYLING
+                    11. ANIMATIONS
+                    12. MEDIA QUERIES
+  
+  */
+/* 1. BASIC STYLING */
+@import url('https://fonts.googleapis.com/css2?family=Rosario:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+body, html {
+    height: auto;
+    overflow-x: hidden;
+    overflow-y: auto;
+    /* background-color: white; */
+}
+body {
+    overflow-y: hidden;
+}
+/* 2. VARIABLES */
+:root {
+    --light-main-color: #E2DBD3;
+    --dark-main-color: #74624E;
+    --mid-theme-color: #b6a591;
+    --height-header: 80px;
+    --contact-blue-color: #4284F3;
+    --about-red-color: #EA4335;
+    --why-green-color: #00AB47;
+    scroll-behavior: smooth;
+    --start-section-height: 580px;
+    --about-section-height: 500px;
+    --services-section-height: 2000px;
+    --why-section-height: 500px;
+    --contact-section-height: auto;
+    --services-sliders-width: 550px;
+}
+/* 3. SELECTION STYLING */
+::-moz-selection:not(main .services .electrican_works) {
+    background-color: white;
+    color: var(--dark-main-color);
+}
+::selection:not(main .services .electrican_works) {
+    background-color: white;
+    color: var(--dark-main-color);
+}
+::-moz-selection {
+    background-color: white;
+    color: var(--dark-main-color);
+}
+::selection {
+    background-color: white;
+    color: var(--dark-main-color);
+}
+/* 4. SCROLLBAR STYLING */
+html::-webkit-scrollbar-thumb,
+html::-webkit-scrollbar-track {
+    border-radius: 0.4vw;
+}
+::-webkit-scrollbar {
+    width: 0.7vw;
+}
+::-webkit-scrollbar-thumb {
+    background-color: var(--mid-theme-color);
+    border-radius: 0.4vw;
+}
+::-webkit-scrollbar-thumb:hover {
+    background-color: #a18d74;
+}
+::-webkit-scrollbar-track {
+    background-color: var(--light-main-color);
+    border-radius: 0.4vw;
+}
+::-webkit-scrollbar-track-piece {
+    background-color: var(--light-main-color);
+}
+/* Firefox */
+html {
+    scrollbar-width: thin;
+    scrollbar-color: var(--mid-theme-color) var(--light-main-color);
+}
+/* 5. MAIN CONTAINER STYLING */
+main {
+    width: 100%;
+    height: auto;
+    /* background-color: khaki; */
+    margin-top: var(--height-header);
+}
+/* preventing overlapping header */
+#beginning:target,
+#about:target,
+#why_sec:target,
+#contact_sec:target,
+#PW:target, #EW:target,
+#GW:target, #AW:target {
+    scroll-margin-top: var(--height-header);
+}
+/* 6. styling pop-up for large slider images */
+.largeImage {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    z-index: 200;
+    /* animation-name: HideImage; */
+    -webkit-animation-duration: 0.5s;
+            animation-duration: 0.5s;
+    -webkit-animation-timing-function: ease-in-out;
+            animation-timing-function: ease-in-out;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    opacity: 0;
+    pointer-events: none;
+}
+.largeImage .fas {
+    position: absolute;
+    font-size: 3rem;
+    cursor: pointer;
+    padding: 0.3em;
+    /* background-color: blanchedalmond; */
+}
+.largeImage .fa-chevron-left {
+    left: 2%;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: opacity 0.5s ease;
+}
+.largeImage .fa-chevron-right {
+    right: 2%;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: opacity 0.5s ease;
+    z-index: -1;
+}
+.largeImage .fa-chevron-left.disappear,
+.largeImage .fa-chevron-right.disappear {
+    opacity: 0;
+    pointer-events: none;
+}
+.largeImage .fa-chevron-left.appear,
+.largeImage .fa-chevron-right.appear {
+    opacity: 1;
+    pointer-events: all;
+}
+.largeImage .fa-times {
+    right: 2%;
+    top: 2%;
+    z-index: -1;
+}
+.largeImage .image {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    height: auto;
+    max-height: 90vh;
+    aspect-ratio: 16/9;
+    /* border: 2px solid black; */
+    border-radius: 10px;
+}
+.largeImage .image img {
+    min-width: 100%;
+    max-width: 100%;
+    height: 100%;
+    border-radius: inherit;
+    /* animation-name: ChangeImage; */
+    -webkit-animation-duration: 0.5s;
+            animation-duration: 0.5s;
+    -webkit-animation-timing-function: linear;
+            animation-timing-function: linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    transition: transform 0.5s ease;
+    cursor: zoom-in;
+}
+/* 7. styling btn for opening pop-up for large slider images */
+.makeBig {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    width: 30px;
+    height: 30px;
+    z-index: 48;
+    padding: 3px;
+    cursor: pointer;
+    background-color: white;
+    border-radius: 5px;
+}
+.makeBig::after {
+    opacity: 0;
+    content: attr(data-name);
+    position: absolute;
+    right: 0;
+    bottom: -40px;
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+    padding: 5px 10px;
+    font-family: "Rosario", sans-serif;
+    background-color: rgb(58, 58, 58);
+    color: white;
+    border-radius: 8px;
+    transition: opacity 0.4s ease;
+    pointer-events: none;
+}
+.makeBig::before {
+    opacity: 0;
+    content: '';
+    position: absolute;
+    bottom: -11px;
+    right: 10px;
+    border-width: 6px;
+    border-style: solid;
+    border-color: transparent transparent rgb(58, 58, 58) transparent;
+    pointer-events: none;
+    transition: opacity 0.4s ease;
+    z-index: 100;
+    pointer-events: none;
+}
+.makeBig:hover::after,
+.makeBig:focus::after, 
+.makeBig:hover::before, 
+.makeBig:focus::before {
+    opacity: 1;
+}
+.makeBig img {
+    width: 100%;
+    height: 100%;
+}
+/* 8. styling container for alert messages */
+.fullAlertContainer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 199;
+    opacity: 0;
+    pointer-events: none;
+    -webkit-animation-duration: 0.6s;
+            animation-duration: 0.6s;
+    -webkit-animation-timing-function: ease;
+            animation-timing-function: ease;
+    transition: opacity 0.6s ease;
+}
+.fullAlertContainer .alert {
+    position: fixed;
+    top: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 420px;
+    background-color: white;
+    min-height: 100px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 5px rgba(255, 255, 255, 0.4);
+    z-index: 200;
+    font-family: 'Rosario', sans-serif;
+}
+.fullAlertContainer .alert .message {
+    font-size: 18px;
+    padding: 20px;
+}
+.fullAlertContainer .alert .btn {
+    width: 100%;
+    height: 30px;
+}
+.fullAlertContainer .alert .btn button {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    padding: 10px 30px;
+    background-color: darkgreen;
+    cursor: pointer;
+    border: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    outline: none;
+    margin-top: 40px;
+}
+.fullAlertContainer .alert button:hover,
+.fullAlertContainer .alert button:focus {
+    background-color:  rgb(2, 138, 2);
+}
+/* 9. RESOURCES CON STYLING */
+.ResWrapper {
+    z-index: 899;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgba(0, 0, 0, 0.75);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    pointer-events: none;
+    /* animation: Hide-Show-Res 0.5s ease reverse forwards; */
+    overflow: hidden;
+}
+.ResWrapper .con {
+    position: relative;
+    width: 450px;
+    min-height: 60vh;
+    background-color: white;
+    box-shadow: 0 0 10px white;
+    padding: 1.5rem 1.5rem 5rem 1.5rem;
+    color: rgb(58, 58, 58);
+    border-radius: 20px;
+    font-family: "Rosario", sans-serif;
+    margin: 2rem 0;
+}
+.ResWrapper .con ::-moz-selection {
+    background-color: rgb(85, 85, 85);
+    color: white;
+}
+.ResWrapper .con ::selection {
+    background-color: rgb(85, 85, 85);
+    color: white;
+}
+.ResWrapper .con > h1 {
+    padding-bottom: 0.3em;
+}
+.ResWrapper .con > p {
+    font-size: 1.1rem;
+    padding: 0.5em 0;
+}
+.ResWrapper .con > .label {
+    position: relative;
+    font-size: 1.2rem;
+    margin-top: 0.3em;
+    padding: 0.5em 0;
+    padding-left: 0.5em;
+    width: calc(100% - 0.5em);
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+.ResWrapper .con > .label:hover,
+.ResWrapper .con > .label:focus {
+    background-color: rgb(233, 233, 233);
+}
+.ResWrapper .con > .label > i.fas {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 10px;
+    transition: transform 0.5s ease;
+}
+.ResWrapper .con > .label > i.fas.open {
+    transform: translateY(-50%) rotate(180deg);
+}
+.ResWrapper .con > .links::-webkit-scrollbar {
+    width: 8px;
+}
+.ResWrapper .con > .links::-webkit-scrollbar-track,
+.ResWrapper .con > .links::-webkit-scrollbar-track-piece {
+    background-color: white;
+    border-radius: 0;
+}
+.ResWrapper .con > .links::-webkit-scrollbar-thumb {
+    background-color: rgb(105, 105, 105);
+    border-radius: 0;
+}
+.ResWrapper .con > .links::-webkit-scrollbar-thumb:hover {
+    background-color: rgb(66, 66, 66);
+}
+.ResWrapper .con > .links {
+    scrollbar-width: thin;
+    scrollbar-color: rgb(66, 66, 66) #fff;
+}
+.ResWrapper .con > .links {
+    height: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+    transition: height 0.5s ease-in-out;
+    /* background-color: blanchedalmond; */
+}
+.ResWrapper .con > .links.active {
+    height: 200px;
+}
+.ResWrapper .con > .links a {
+    font-family: "Rosario", sans-serif;
+    font-size: 1.1rem;
+    padding: 0.3em;
+    padding-left: 0.4em;
+    display: block;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease;
+}
+.ResWrapper .con > .links a.appear {
+    opacity: 1;
+    pointer-events: all;
+}
+.ResWrapper .con > button {
+    position: absolute;
+    font-family: "Rosario", sans-serif;
+    font-size: 1.3rem;
+    bottom: 1rem;
+    right: 1rem;
+    padding: 0.6em 1em;
+    border: none;
+    background-color: #1bb95d;
+    color: white;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+.ResWrapper .con > button:hover,
+.ResWrapper .con > button:focus {
+    background-color: var(--why-green-color);
+}
+/* 10. LANGUAGE MENU AND CONTAINER STYLING */
+.langWrapper {
+    z-index: 999;
+    opacity: 0;
+    pointer-events: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: rgb(236, 236, 236);
+    font-family: "Rosario", sans-serif;
+    transition: all 0.3s ease-in-out;
+}
+.langWrapper.active {
+    opacity: 1;
+    pointer-events: all;
+}
+.langWrapper > i.fa-times {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 2.5rem;
+    /* background-color: blue; */
+    padding: 0.2em 0.4em;
+    cursor: pointer;
+}
+.langWrapper > h1 {
+    font-size: 2.2rem;
+    margin-bottom: 4rem;
+    transform: scale(0);
+    transform-origin: top right;
+    transition: transform 0.3s ease-in-out;
+}
+.langWrapper > h1.opened {
+    transform: scale(1);
+}
+.langWrapper > .conForItems {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: inherit;
+    transform: scale(0);
+    transform-origin: top right;
+    transition: transform 0.3s ease-in-out;
+}
+.langWrapper > .conForItems.opened {
+    transform: scale(1);
+}
+.langWrapper > .conForItems > .item {
+    color: inherit;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 4rem;
+    font-size: 1.3rem;
+    padding: 0.8em;
+    cursor: pointer;
+    border-radius: 15px;
+    transition: all 0.3s ease;
+}
+.langWrapper > .conForItems > .item:hover {
+    background-color: rgb(238, 238, 238);
+    color: rgb(39, 38, 38);
+}
+.langWrapper > .conForItems > .item:last-child {
+    margin-right: 0;
+}
+.langWrapper > .conForItems > .item > .label {
+    margin-top: 1.4rem;
+}
+.langWrapper > .conForItems > .item > img {
+    width: 180px;
+    height: auto;
+    border-radius: 15px;
+    border: 1px solid rgb(39, 38, 38);
+}
+/* 11. ANIMATIONS */
+@-webkit-keyframes ShowImage {
+    from {
+        transform: scale(0);
+        opacity: 0;
+    }
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+@keyframes ShowImage {
+    from {
+        transform: scale(0);
+        opacity: 0;
+    }
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+@-webkit-keyframes HideImage {
+    from {
+        transform: scale(1);
+        opacity: 1;
+    }
+    to {
+        transform: scale(0);
+        opacity: 0;
+    }
+}
+@keyframes HideImage {
+    from {
+        transform: scale(1);
+        opacity: 1;
+    }
+    to {
+        transform: scale(0);
+        opacity: 0;
+    }
+}
+@-webkit-keyframes ChangeImage {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@keyframes ChangeImage {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@-webkit-keyframes alert {
+    0% {
+        transform: translateY(-140px);
+    }
+    70% {
+        transform: translateY(20px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+@keyframes alert {
+    0% {
+        transform: translateY(-140px);
+    }
+    70% {
+        transform: translateY(20px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+@-webkit-keyframes slideRight {
+    from {
+        transform: translateX(-200px);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+@keyframes slideRight {
+    from {
+        transform: translateX(-200px);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+@-webkit-keyframes slideLeft {
+    from {
+        transform: translateX(200px);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+@keyframes slideLeft {
+    from {
+        transform: translateX(200px);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+@-webkit-keyframes Hide-Show-Res {
+    from {
+        opacity: 1;
+        pointer-events: all;
+    }
+    to {
+        opacity: 0;
+        pointer-events: none;
+    }
+}
+@keyframes Hide-Show-Res {
+    from {
+        opacity: 1;
+        pointer-events: all;
+    }
+    to {
+        opacity: 0;
+        pointer-events: none;
+    }
+}
+@-webkit-keyframes openLangCon {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@keyframes openLangCon {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+/* 12. MEDIA QUERIES */
+@media screen and (min-width: 1500px) {
+    .langWrapper > .conForItems > .item {
+        margin-right: 10rem;
+    }
+}
+@media screen and (max-width: 1000px) {
+    ::-webkit-scrollbar {
+        width: 8px;
+    }
+    ::-webkit-scrollbar-thumb {
+        border-radius: 5px;
+    }
+    ::-webkit-scrollbar-track {
+        border-radius: 5px;
+    }
+}
+@media screen and (max-width: 800px) {
+    .langWrapper > .conForItems > .item > img {
+        width: 150px;
+    }
+    .langWrapper > h1 {
+        font-size: 2rem;
+    }
+    .langWrapper > .conForItems > .item {
+        font-size: 1.1rem;
+        margin-right: 2rem;
+    }
+    .langWrapper > .conForItems > .item > .label {
+        margin-top: 1.2rem;
+    }
+}
+@media screen and (max-width: 700px) {
+    .largeImage .fas {
+        font-size: 2rem;
+    }
+    .largeImage .image {
+        top: 50%;
+        width: 90%;
+    }
+    .largeImage .fa-chevron-left {
+        left: 20%;
+        top: 85%;
+    }
+    .largeImage .fa-chevron-right {
+        right: 20%;
+        top: 85%;
+    }
+    .largeImage .fas {
+        font-size: 2.5rem;
+    }
+}
+@media screen and (max-width: 650px) {
+    .langWrapper > .conForItems > .item > img {
+        width: 160px;
+    }
+    .langWrapper > h1 {
+        font-size: 2.2rem;
+        margin-bottom: 2rem;
+    }
+    .langWrapper > .conForItems > .item {
+        font-size: 1.3rem;
+        margin-right: 0;
+        margin-top: 1rem;
+    }
+    .langWrapper > .conForItems > .item:nth-child(1) {
+        margin-right: 1rem;
+    }
+    .langWrapper > .conForItems > .item:nth-child(2) {
+        margin-left: 1rem;
+    }
+    .langWrapper > .conForItems > .item > .label {
+        margin-top: 1.5rem;
+    }
+    .langWrapper > .conForItems {
+        width: 90%;
+        /* background-color: lightblue; */
+        flex-wrap: wrap;
+    }
+}
+@media screen and (max-width: 500px) {
+    .makeBig::after {
+        font-size: 0.9rem;
+        bottom: -35px;
+    }
+    .makeBig {
+        width: 25px;
+        height: 25px;
+        padding: 1px;
+    }
+    .makeBig::before {
+        right: 7px;
+        bottom: -10px;
+    }
+    .largeImage .image {
+        width: 100%;
+    }
+    .fullAlertContainer .alert {
+        width: 90%;
+    }
+    .ResWrapper .con {
+        width: 90%;
+    }
+    .ResWrapper .con > h1 {
+        font-size: 1.5rem;
+    }
+    .ResWrapper .con > p,
+    .ResWrapper .con > .links a,
+    .ResWrapper .con > .label > i.fas {
+        font-size: 1rem;
+    }
+    .ResWrapper .con > .label {
+        font-size: 1.1rem;
+    }
+    .ResWrapper .con > button {
+        font-size: 1.2rem;
+    }
+    .langWrapper > .conForItems > .item > img {
+        width: 100px;
+        border-radius: 10px;
+    }
+    .langWrapper > h1 {
+        font-size: 2rem;
+        margin-bottom: 3rem;
+    }
+    .langWrapper > .conForItems > .item {
+        font-size: 1.1rem;
+        margin-right: 0;
+        margin-top: 1rem;
+        border-radius: 10px;
+    }
+    .langWrapper > .conForItems > .item:nth-child(1) {
+        margin-right: 0rem;
+    }
+    .langWrapper > .conForItems > .item:nth-child(2) {
+        margin-left: 0rem;
+    }
+    .langWrapper > .conForItems > .item > .label {
+        margin-top: 1.5rem;
+    }
+    .langWrapper > .conForItems {
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 400px) {
+    .ResWrapper .con > .links.active {
+        height: 150px;
+    }
+    .largeImage .fa-chevron-left,
+    .largeImage .fa-chevron-right {
+        top: 75%;
+    }
+}
+@media screen and (max-width: 350px) {
+    .fullAlertContainer .alert .message {
+        font-size: 1rem;
+    }
+    .fullAlertContainer .alert .btn button {
+        font-size: 0.7rem;
+    }
+    .langWrapper > .conForItems > .item > img {
+        width: 70px;
+        border-radius: 5px;
+    }
+    .langWrapper > h1 {
+        font-size: 1.8rem;
+        margin-bottom: 1.5rem;
+    }
+    .langWrapper > .conForItems > .item {
+        font-size: 1rem;
+        margin-right: 0;
+        margin-top: 1rem;
+        border-radius: 5px;
+    }
+    .langWrapper > .conForItems > .item > .label {
+        margin-top: 1rem;
+    }
+}
+@media screen and (max-width: 300px) {
+    .ResWrapper .con > .links.active {
+        height: 100px;
+    }
+}

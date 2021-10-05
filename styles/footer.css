@@ -1,0 +1,417 @@
+/* 
+                        Table of contents
+
+                    1. footer styling
+                    2. animations
+                    3. media queries
+
+*/
+/* 1. footer styling */
+footer {
+    height: auto;
+    width: 100%;
+    background-color: rgb(38, 38, 38);
+}
+footer .lastInfo {
+    height: auto;
+    width: 100%;
+    background-color: white;
+    font-family: "Rosario", sans-serif;
+    display: flex;
+}
+footer .lastInfo ::-moz-selection {
+    background-color: rgb(236, 231, 231);
+    color: rgba(58, 58, 58);
+}
+footer .lastInfo ::selection {
+    background-color: rgb(236, 231, 231);
+    color: rgba(58, 58, 58);
+}
+footer .lastInfo .footerText {
+    width: 60%;
+    /* background-color: khaki; */
+}
+footer .lastInfo .footerText h1 {
+    font-size: 2.3rem;
+    font-weight: 300;
+    padding: 3.5rem 0 1.5rem 15%;
+}
+footer .lastInfo .footerText .number a,
+footer .lastInfo .footerText .mail a {
+    display: flex;
+    /* background-color: lavender; */
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+    margin: 2rem 0 2rem 20%;
+}
+footer .lastInfo .footerText .mail {
+    margin-bottom: 4rem;
+}
+footer .lastInfo .footerText h1,
+footer .lastInfo .footerText .number,
+footer .lastInfo .footerText .mail {
+    transform: translateX(-200px);
+    opacity: 0;
+}
+footer .lastInfo .footerText .number .icon,
+footer .lastInfo .footerText .mail .icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    /* background-color: rgb(235, 171, 192); */
+}
+footer .lastInfo .footerText .number .icon img,
+footer .lastInfo .footerText .mail .icon img {
+    width: 100%;
+    height: 100%;
+}
+footer .lastInfo .footerText .number a,
+footer .lastInfo .footerText .mail a {
+    text-decoration: none;
+}
+footer .lastInfo .footerText .number .text,
+footer .lastInfo .footerText .mail .text {
+    height: 60px;
+    line-height: 60px;
+    display: inline;
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+    /* background-color: blueviolet; */
+}
+footer .lastInfo .footerText .number .text span,
+footer .lastInfo .footerText .mail .text span {
+    font-size: 1.7rem;
+    color: black;
+    text-decoration: none;
+    margin-left: 1rem;
+    position: relative;
+    /* background-color: blanchedalmond; */
+}
+footer .lastInfo .footerText .number .text span::after,
+footer .lastInfo .footerText .mail .text span::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -4px;
+    height: 2px;
+    background-color: white;
+    transition: left 0.6s ease;
+}
+footer .lastInfo .footerText .mail .text span::after {
+    transition: left 0.75s ease;
+}
+footer .lastInfo .footerText .number .text span::before,
+footer .lastInfo .footerText .mail .text span::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 100%;
+    bottom: -4px;
+    height: 2px;
+    background-color: black;
+}
+footer .lastInfo .footerText .number a:hover .text span::after,
+footer .lastInfo .footerText .mail a:hover .text span::after,
+footer .lastInfo .footerText .number a:focus .text span::after,
+footer .lastInfo .footerText .mail a:focus .text span::after {
+    left: 100%;
+}
+footer .lastInfo .logoImage {
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    /* background-color: burlywood; */
+}
+footer .lastInfo .logoImage .conImg {
+    width: 170px;
+    height: 170px;
+    background-color: white;
+    margin-left: 35%;
+    border-radius: 50%;
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+    transform: translateX(200px);
+    opacity: 0;
+}
+footer .lastInfo .logoImage .conImg a {
+    position: relative;
+}
+footer .lastInfo .logoImage .conImg img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+footer .lastInfo .logoImage .conImg a::after {
+    opacity: 0;
+    content: attr(data-name);
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -43px;
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+    background-color: rgb(58, 58, 58);
+    color: white;
+    padding: 0.4em 0.8em 0.5em;
+    border-radius: 10px;
+    pointer-events: none;
+    transition: opacity 0.4s ease;
+    z-index: 100;
+}
+footer .lastInfo .logoImage .conImg a::before {
+    opacity: 0;
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-width: 6px;
+    border-style: solid;
+    border-color: transparent transparent rgb(58, 58, 58) transparent;
+    pointer-events: none;
+    transition: opacity 0.4s ease;
+    z-index: 100;
+}
+footer .lastInfo .logoImage .conImg a:hover::after,
+footer .lastInfo .logoImage .conImg a:hover::before,
+footer .lastInfo .logoImage .conImg a:focus::after,
+footer .lastInfo .logoImage .conImg a:focus::before {
+    opacity: 1;
+}
+footer .credits {
+    width: 100%;
+    font-size: 1rem;
+    font-family: "Rosario", sans-serif;
+    font-weight: 200;
+    text-align: center;
+    color: white;
+    padding: 0.5em 0;
+}
+footer .credits ::-moz-selection {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+footer .credits ::selection {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+footer .credits .wrapper {
+    opacity: 0;
+}
+footer .credits a {
+    padding: 0.5em 0;
+}
+footer .credits a:link, 
+footer .credits a:visited {
+    color: rgb(255, 0, 0);
+    text-decoration: none;
+}
+footer .credits a:active, 
+footer .credits a:hover,
+footer .credits a:focus {
+    color: yellow;
+}
+/* 2. ANIMATIONS */
+@-webkit-keyframes copyrightFade {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+@keyframes copyrightFade {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+/* 3. MEDIA QUERIES */
+@media screen and (max-width: 1150px) {
+    footer .lastInfo .footerText .number .text span,
+    footer .lastInfo .footerText .mail .text span {
+        font-size: 1.5rem;
+    }
+    footer .lastInfo .footerText h1 {
+        font-size: 2.1rem;
+    }
+    footer .lastInfo .footerText .number .icon,
+    footer .lastInfo .footerText .mail .icon {
+        width: 50px;
+        height: 50px;
+    }
+    footer .lastInfo .footerText .number .text,
+    footer .lastInfo .footerText .mail .text {
+        height: 50px;
+        line-height: 50px;
+    }
+}
+@media screen and (max-width: 900px) {
+    footer .lastInfo .footerText .number .text span,
+    footer .lastInfo .footerText .mail .text span {
+        font-size: 1.4rem;
+    }
+    footer .lastInfo .footerText h1 {
+        font-size: 2rem;
+    }
+    footer .lastInfo .logoImage .conImg{
+        width: 150px;
+        height: 150px;
+    }
+}
+@media screen and (max-width: 750px) {
+    footer .lastInfo .footerText .number .text span,
+    footer .lastInfo .footerText .mail .text span {
+        font-size: 1.7rem;
+    }
+    footer .lastInfo .footerText h1 {
+        font-size: 2.3rem;
+    }
+    footer .lastInfo .footerText .number .icon,
+    footer .lastInfo .footerText .mail .icon {
+        width: 60px;
+        height: 60px;
+    }
+    footer .lastInfo .footerText .number .text,
+    footer .lastInfo .footerText .mail .text {
+        height: 60px;
+        line-height: 60px;
+    }
+    footer .lastInfo .logoImage .conImg{
+        width: 170px;
+        height: 170px;
+    }
+    footer .lastInfo {
+        flex-direction: column;
+    }
+    footer .lastInfo .footerText,
+    footer .lastInfo .logoImage {
+        width: 100%;
+    }
+    footer .lastInfo .logoImage {
+        justify-content: center;
+        padding: 1rem 0 4rem 0;
+    }
+    footer .lastInfo .logoImage .conImg {
+        margin-left: 0;
+    }
+}
+@media screen and (max-width: 630px) {
+    footer .lastInfo .footerText .number .text span,
+    footer .lastInfo .footerText .mail .text span {
+        font-size: 1.5rem;
+    }
+    footer .lastInfo .footerText h1 {
+        font-size: 2.1rem;
+    }
+    footer .lastInfo .footerText .number .icon,
+    footer .lastInfo .footerText .mail .icon {
+        width: 50px;
+        height: 50px;
+    }
+    footer .lastInfo .footerText .number .text,
+    footer .lastInfo .footerText .mail .text {
+        height: 50px;
+        line-height: 50px;
+    }
+    footer .lastInfo .footerText h1 {
+        padding-left: 10%;
+    }
+    footer .lastInfo .footerText .number a,
+    footer .lastInfo .footerText .mail a {
+        margin-left: 15%;
+    }
+    footer .lastInfo .footerText h1 {
+        padding-top: 2rem;
+        padding-bottom: 1rem;
+    }
+    footer .lastInfo .footerText .mail {
+        margin-bottom: 1rem;
+    }
+    footer .lastInfo .footerText .number a,
+    footer .lastInfo .footerText .mail a {
+        margin-top: 1.8rem;
+        margin-bottom: 1.8rem;
+    }
+}
+@media screen and (max-width: 500px) {
+    footer .lastInfo .footerText .number .text span,
+    footer .lastInfo .footerText .mail .text span {
+        font-size: 1.4rem;
+    }
+    footer .lastInfo .footerText h1 {
+        font-size: 2rem;
+    }
+    footer .lastInfo .footerText h1 {
+        padding-left: 2rem;
+    }
+    footer .lastInfo .footerText .number a,
+    footer .lastInfo .footerText .mail a {
+        margin-left: 3.5rem;
+    }
+    footer .lastInfo .logoImage .conImg{
+        width: 150px;
+        height: 150px;
+    }
+    footer .lastInfo .logoImage {
+        padding: 1rem 0 2.5rem 0;
+    }
+    footer .lastInfo .logoImage .conImg a::after {
+        bottom: 150px;
+    }
+    footer .lastInfo .logoImage .conImg a::before {
+        bottom: 140px;
+        border-color: rgb(58, 58, 58) transparent transparent transparent;
+    }
+    footer .credits {
+        font-size: 0.9rem;
+    }
+}
+@media screen and (max-width: 430px) {
+    footer .lastInfo .footerText .number .icon,
+    footer .lastInfo .footerText .mail .icon {
+        width: 40px;
+        height: 40px;
+    }
+    footer .lastInfo .footerText .number .text,
+    footer .lastInfo .footerText .mail .text {
+        height: 40px;
+        line-height: 40px;
+    }
+    footer .lastInfo .footerText h1 {
+        padding-left: 1.3rem;
+    }
+    footer .lastInfo .footerText .number a,
+    footer .lastInfo .footerText .mail a {
+        margin-left: 2.2rem;
+    }
+    footer .lastInfo .footerText .number .text span,
+    footer .lastInfo .footerText .mail .text span {
+        margin-left: 0.5rem;
+    }
+}
+@media screen and (max-width: 380px) {
+    footer .lastInfo .footerText .number .text span,
+    footer .lastInfo .footerText .mail .text span {
+        font-size: 1.1rem;
+    }
+    footer .lastInfo .footerText h1 {
+        font-size: 1.6rem;
+    }
+    footer .lastInfo .footerText .number .text span::after,
+    footer .lastInfo .footerText .mail .text span::after,
+    footer .lastInfo .footerText .number .text span::before,
+    footer .lastInfo .footerText .mail .text span::before {
+        height: 1px;
+    }
+}
+@media screen and (max-width: 300px) {
+    footer .lastInfo .footerText h1 {
+        padding-left: 1rem;
+    }
+    footer .lastInfo .footerText .number a,
+    footer .lastInfo .footerText .mail a {
+        margin-left: 1rem;
+    }
+}
