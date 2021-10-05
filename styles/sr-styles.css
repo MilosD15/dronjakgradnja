@@ -281,6 +281,7 @@ main .start .why {
     main .start .why {
         padding-left: 1.4em;
         margin-top: 20px;
+        padding-right: 0;
     }
     main .start .button img {
         height: 55px;
