@@ -5,6 +5,8 @@ I made this website without any js library or any framework, because I want to v
 
 Draggable slider, zooming in and zooming out images, using intersection observer for full page onscroll animations are just a some of interesting things to see.
 
-I have to note that idea for draggable slider is taken from Traversy Media channel (YouTube).
+I have to note that idea for draggable slider is taken from Traversy Media (YouTube video on his channel).
 
 Considering that all is made with Vanilla JS and pure CSS, it can be interesting to take a look...
+
+Take a look how website looks like on the Internet: https://dronjakgradnja.netlify.app
