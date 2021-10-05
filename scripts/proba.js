@@ -1,0 +1,1 @@
+// script file for working some actions with new elements
