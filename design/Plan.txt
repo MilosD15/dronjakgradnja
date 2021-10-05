@@ -1,0 +1,7 @@
+1. Header - logo, slogan
+2. First frame - slider, btns, intro message
+3. What we actually do - painter, electrican, bricklayer work, gluing tiles...
+4. About us section
+5. Why we section
+6. Contact us section
+7. Footer section
