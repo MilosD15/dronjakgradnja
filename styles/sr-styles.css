@@ -164,6 +164,9 @@ main .start .why {
         opacity: 0;
         /* animation: slideRight 1s ease 0.3s forwards; */
     }
+    main .start .why {
+        padding-right: 0;
+    }
 }
 @media  screen and (max-width: 780px) {
     main .start .button {
@@ -175,6 +178,7 @@ main .start .why {
     main .start .why,
     main .start .contact {
         margin-left: 7%;
+        padding-right: 0;
     }
     main .start .about {
         margin-left: 6%;
