@@ -17,7 +17,7 @@ before I start to learn and make projects with libraries
 and frameworks. I used only font-awesome for icons, smtp.js 
 for sending emails, and intersection observer for scrolling 
 animations. Draggable slider, zooming in and zooming out 
-images, and using intersection observer for full page scroll 
+images, and using intersection observer for full page scrolling 
 animations are just some of many interesting things to see. 🤗
 ## Languages and Tools 🛠
 
