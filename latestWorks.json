@@ -1,0 +1,1714 @@
+[
+  {
+    "id": 1,
+    "name": "work-1",
+    "project_type": {
+      "flag": "installations",
+      "category_name": {
+        "sr": "Instalacije",
+        "en": "Installations",
+        "nl": "Installaties"
+      }
+    },
+    "title": {
+      "sr": "Spušteni plafon sa LED rasvetom",
+      "en": "Drop Ceiling with LED Lighting",
+      "nl": "Verlaagd plafond met LED-verlichting"
+    },
+    "description": {
+      "sr": "Ovaj projekat je radjen po posebnom nacrtu i zahtevu klijenta. Spušteni plafon je uradjen od gips kartonskih ploča, a rasveta je LED traka sa RGB kontrolerom. Kao što možete videti na skikama ispod, plafon se sastoji iz dve celine. Jedna predstavlja okvir središnjeg dela plafona, a druga je centralni oblik po zelji kupca. Unutar obe celine je postavljena LED traka koja se može menjati u boji i intenzitetu. Takodje, klijent je trazio da se u obe celine ugrade spotovi(male okrugle sijalice u plafonu na slikama ispod) sa razmakom od po 40cm izmedju svake. Ovaj projekat je uradjen u stanu u Utrecht-u.",
+      "en": "This project was done according to a special design and the client's request. The drop ceiling was made of gypsum board panels, and the lighting is an LED strip with an RGB controller. As you can see in the sketches below, the ceiling consists of two parts. One represents the frame of the central part of the ceiling, and the other is the central shape as per the customer's wish. Within both parts, an LED strip has been installed that can change in color and intensity. Also, the client requested that spots (small round bulbs in the ceiling in the pictures below) be installed in both parts with a gap of 40cm between each. This project was done in an apartment in Utrecht.",
+      "nl": "Dit project is uitgevoerd volgens een speciaal ontwerp op verzoek van de klant. Het verlaagd plafond is gemaakt van gipskartonplaten en de verlichting is een LED-strip met een RGB-controller. Zoals u in de schetsen hieronder ziet, bestaat het plafond uit twee delen. Eén deel vormt het kader van het centrale deel van het plafond en het andere deel is de centrale vorm naar wens van de klant. In beide delen is een LED-strip geplaatst die van kleur en intensiteit kan veranderen. Ook heeft de klant gevraagd om spots (kleine ronde lampen in het plafond op de foto's hieronder) te installeren in beide delen met een tussenruimte van 40cm. Dit project is uitgevoerd in een appartement in Utrecht."
+    },
+    "showcase_img": {
+      "url": "\\work-1\\showcase.jpeg",
+      "alt_text": {
+        "sr": "Spušteni plafon sa LED rasvetom",
+        "en": "Drop Ceiling with LED Lighting",
+        "nl": "Verlaagd plafond met LED-verlichting"
+      }
+    },
+    "additional_imgs": [
+      {
+        "url": "\\work-1\\additional-img-1.jpeg",
+        "alt_text": {
+          "sr": "Spušteni plafon sa LED rasvetom",
+          "en": "Drop Ceiling with LED Lighting",
+          "nl": "Verlaagd plafond met LED-verlichting"
+        }
+      },
+      {
+        "url": "\\work-1\\additional-img-2.jpeg",
+        "alt_text": {
+          "sr": "Spušteni plafon sa LED rasvetom",
+          "en": "Drop Ceiling with LED Lighting",
+          "nl": "Verlaagd plafond met LED-verlichting"
+        }
+      },
+      {
+        "url": "\\work-1\\additional-img-3.jpeg",
+        "alt_text": {
+          "sr": "Spušteni plafon sa LED rasvetom",
+          "en": "Drop Ceiling with LED Lighting",
+          "nl": "Verlaagd plafond met LED-verlichting"
+        }
+      },
+      {
+        "url": "\\work-1\\additional-img-4.jpeg",
+        "alt_text": {
+          "sr": "Spušteni plafon sa LED rasvetom",
+          "en": "Drop Ceiling with LED Lighting",
+          "nl": "Verlaagd plafond met LED-verlichting"
+        }
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "work-3",
+    "project_type": {
+      "flag": "installations",
+      "category_name": {
+        "sr": "Instalacije",
+        "en": "Installations",
+        "nl": "Installaties"
+      }
+    },
+    "title": {
+      "sr": "Menjanje elektro table sa osiguračima",
+      "en": "Changing the electrical panel with circuit breakers",
+      "nl": "Vervangen van de elektrische paneel met stroomonderbrekers"
+    },
+    "description": {
+      "sr": "Ovaj projekat je obuhvatio menjanje kompletne eletro table sa automatiskim osiguračima i prelazak sa monofazne na trofaznu struju. Takodje, dodali smo i nekoliko novih strujnih grupa. Ovaj projekat je uradjen u kući u Rotterdam-u.",
+      "en": "This project involved replacing the entire electrical panel with automatic circuit breakers and transitioning from single-phase to three-phase electricity. Additionally, we added several new electrical groups. This project was done in a house in Rotterdam.",
+      "nl": "Dit project omvatte het vervangen van het volledige elektrische paneel met automatische stroomonderbrekers en de overgang van eenfasige naar driefasige elektriciteit. Daarnaast hebben we ook enkele nieuwe elektrische groepen toegevoegd. Dit project is uitgevoerd in een huis in Rotterdam."
+    },
+    "showcase_img": {
+      "url": "\\work-3\\showcase.jpg",
+      "alt_text": {
+        "sr": "Menjanje elektro table sa osiguračima",
+        "en": "Changing the electrical panel with circuit breakers",
+        "nl": "Vervangen van het elektrische paneel met stroomonderbrekers"
+      }
+    },
+    "additional_imgs": [
+      {
+        "url": "\\work-3\\additional-img-1.jpg",
+        "alt_text": {
+          "sr": "Menjanje elektro table sa osiguračima",
+          "en": "Changing the electrical panel with circuit breakers",
+          "nl": "Vervangen van het elektrische paneel met stroomonderbrekers"
+        }
+      },
+      {
+        "url": "\\work-3\\additional-img-2.jpg",
+        "alt_text": {
+          "sr": "Menjanje elektro table sa osiguračima",
+          "en": "Changing the electrical panel with circuit breakers",
+          "nl": "Vervangen van het elektrische paneel met stroomonderbrekers"
+        }
+      },
+      {
+        "url": "\\work-3\\additional-img-3.jpg",
+        "alt_text": {
+          "sr": "Menjanje elektro table sa osiguračima",
+          "en": "Changing the electrical panel with circuit breakers",
+          "nl": "Vervangen van het elektrische paneel met stroomonderbrekers"
+        }
+      },
+      {
+        "url": "\\work-3\\additional-img-4.jpg",
+        "alt_text": {
+          "sr": "Menjanje elektro table sa osiguračima",
+          "en": "Changing the electrical panel with circuit breakers",
+          "nl": "Vervangen van het elektrische paneel met stroomonderbrekers"
+        }
+      },
+      {
+        "url": "\\work-3\\additional-img-5.jpg",
+        "alt_text": {
+          "sr": "Menjanje elektro table sa osiguračima",
+          "en": "Changing the electrical panel with circuit breakers",
+          "nl": "Vervangen van het elektrische paneel met stroomonderbrekers"
+        }
+      },
+      {
+        "url": "\\work-3\\additional-img-6.jpg",
+        "alt_text": {
+          "sr": "Menjanje elektro table sa osiguračima",
+          "en": "Changing the electrical panel with circuit breakers",
+          "nl": "Vervangen van het elektrische paneel met stroomonderbrekers"
+        }
+      },
+      {
+        "url": "\\work-3\\additional-img-7.jpg",
+        "alt_text": {
+          "sr": "Menjanje elektro table sa osiguračima",
+          "en": "Changing the electrical panel with circuit breakers",
+          "nl": "Vervangen van de elektrische paneel met stroomonderbrekers"
+        }
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "work-4",
+    "project_type": {
+      "flag": "ceramic-works",
+      "category_name": {
+        "sr": "Keramičarski radovi",
+        "en": "Ceramic works",
+        "nl": "Keramiekwerken"
+      }
+    },
+    "title": {
+      "sr": "Renoviranje toaleta u Bodegraven-u",
+      "en": "Renovation of the toilet in Bodegraven",
+      "nl": "Renovatie van het toilet in Bodegraven"
+    },
+    "description": {
+      "sr": "Ovo je jos jedno renoviranje toaleta koje smo radili u Bodegraven-u. Ovo renoviranje podrazumevalo je menjanje i ugradnju novih podnih i zidnih plocica, ugradnju geberita i postavljanje WC solje.",
+      "en": "This is another toilet renovation we did in Bodegraven. This renovation involved changing and installing new floor and wall tiles, installing a Geberit system, and setting up a toilet bowl.",
+      "nl": "Dit is een toiletrenovatie die we hebben gedaan in Bodegraven. Deze renovatie omvatte het vervangen en installeren van nieuwe vloer- en wandtegels, het installeren van een Geberit-systeem en het plaatsen van een toiletpot."
+    },
+    "showcase_img": {
+      "url": "\\work-4\\showcase.jpg",
+      "alt_text": {
+        "sr": "Renoviranje toaleta u Bodegraven-u",
+        "en": "Renovation of the toilet in Bodegraven",
+        "nl": "Renovatie van het toilet in Bodegraven"
+      }
+    },
+    "additional_imgs": [
+      {
+        "url": "\\work-4\\additional-img-1.jpg",
+        "alt_text": {
+          "sr": "Renoviranje toaleta u Bodegraven-u",
+          "en": "Renovation of the toilet in Bodegraven",
+          "nl": "Renovatie van het toilet in Bodegraven"
+        }
+      },
+      {
+        "url": "\\work-4\\additional-img-2.jpg",
+        "alt_text": {
+          "sr": "Renoviranje toaleta u Bodegraven-u",
+          "en": "Renovation of the toilet in Bodegraven",
+          "nl": "Renovatie van het toilet in Bodegraven"
+        }
+      },
+      {
+        "url": "\\work-4\\additional-img-3.jpg",
+        "alt_text": {
+          "sr": "Renoviranje toaleta u Bodegraven-u",
+          "en": "Renovation of the toilet in Bodegraven",
+          "nl": "Renovatie van het toilet in Bodegraven"
+        }
+      },
+      {
+        "url": "\\work-4\\additional-img-4.jpg",
+        "alt_text": {
+          "sr": "Renoviranje toaleta u Bodegraven-u",
+          "en": "Renovation of the toilet in Bodegraven",
+          "nl": "Renovatie van het toilet in Bodegraven"
+        }
+      },
+      {
+        "url": "\\work-4\\additional-img-5.jpg",
+        "alt_text": {
+          "sr": "Renoviranje toaleta u Bodegraven-u",
+          "en": "Renovation of the toilet in Bodegraven",
+          "nl": "Renovatie van het toilet in Bodegraven"
+        }
+      },
+      {
+        "url": "\\work-4\\additional-img-6.jpg",
+        "alt_text": {
+          "sr": "Renoviranje toaleta u Bodegraven-u",
+          "en": "Renovation of the toilet in Bodegraven",
+          "nl": "Renovatie van het toilet in Bodegraven"
+        }
+      },
+      {
+        "url": "\\work-4\\additional-img-7.jpg",
+        "alt_text": {
+          "sr": "Renoviranje toaleta u Bodegraven-u",
+          "en": "Renovation of the toilet in Bodegraven",
+          "nl": "Renovatie van het toilet in Bodegraven"
+        }
+      },
+      {
+        "url": "\\work-4\\additional-img-8.jpg",
+        "alt_text": {
+          "sr": "Renoviranje toaleta u Bodegraven-u",
+          "en": "Renovation of the toilet in Bodegraven",
+          "nl": "Renovatie van het toilet in Bodegraven"
+        }
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "work-5",
+    "project_type": {
+      "flag": "interior-works",
+      "category_name": {
+        "sr": "Unutrašnji radovi",
+        "en": "Interior works",
+        "nl": "Interieurwerken"
+      }
+    },
+    "title": {
+      "sr": "Postavljanje laminata u Rotterdam-u",
+      "en": "Laminate installation in Rotterdam",
+      "nl": "Laminaat installatie in Rotterdam"
+    },
+    "description": {
+      "sr": "Ovaj projekat obuhvatio je postavljanje novog laminata u celoj kući u Rotterdam-u. Ova kuća se sastoji iz dva sparata i ukupne je površine 100m2. Laminat je postavljen u svim prostorijama osim u kupatilu i toaletu. Takodje, postavljene su i nove lajsne.",
+      "en": "This project involved installing new laminate throughout a house in Rotterdam. The house consists of two floors and has a total area of 100m2. The laminate was laid in all rooms except the bathroom and toilet. Additionally, new baseboards were installed.",
+      "nl": "Dit project omvatte het leggen van nieuw laminaat door een huis in Rotterdam. Het huis bestaat uit twee verdiepingen en heeft een totale oppervlakte van 100m2. Het laminaat werd in alle kamers gelegd, behalve in de badkamer en het toilet. Daarnaast zijn er nieuwe plinten geplaatst."
+    },
+    "showcase_img": {
+      "url": "\\work-5\\showcase.jpg",
+      "alt_text": {
+        "sr": "Postavljanje laminata u Rotterdam-u",
+        "en": "Laminate installation in Rotterdam",
+        "nl": "Laminaat leggen in Rotterdam"
+      }
+    },
+    "additional_imgs": [
+      {
+        "url": "\\work-5\\additional-img-1.jpg",
+        "alt_text": {
+          "sr": "Postavljanje laminata u Rotterdam-u",
+          "en": "Laminate installation in Rotterdam",
+          "nl": "Laminaat leggen in Rotterdam"
+        }
+      },
+      {
+        "url": "\\work-5\\additional-img-2.jpg",
+        "alt_text": {
+          "sr": "Postavljanje laminata u Rotterdam-u",
+          "en": "Laminate installation in Rotterdam",
+          "nl": "Laminaat leggen in Rotterdam"
+        }
+      },
+      {
+        "url": "\\work-5\\additional-img-3.jpg",
+        "alt_text": {
+          "sr": "Postavljanje laminata u Rotterdam-u",
+          "en": "Laminate installation in Rotterdam",
+          "nl": "Laminaat leggen in Rotterdam"
+        }
+      },
+      {
+        "url": "\\work-5\\additional-img-4.jpg",
+        "alt_text": {
+          "sr": "Postavljanje laminata u Rotterdam-u",
+          "en": "Laminate installation in Rotterdam",
+          "nl": "Laminaat leggen in Rotterdam"
+        }
+      },
+      {
+        "url": "\\work-5\\additional-img-5.jpg",
+        "alt_text": {
+          "sr": "Postavljanje laminata u Rotterdam-u",
+          "en": "Laminate installation in Rotterdam",
+          "nl": "Laminaat leggen in Rotterdam"
+        }
+      },
+      {
+        "url": "\\work-5\\additional-img-6.jpg",
+        "alt_text": {
+          "sr": "Postavljanje laminata u Rotterdam-u",
+          "en": "Laminate installation in Rotterdam",
+          "nl": "Laminaat leggen in Rotterdam"
+        }
+      },
+      {
+        "url": "\\work-5\\additional-img-7.jpg",
+        "alt_text": {
+          "sr": "Postavljanje laminata u Rotterdam-u",
+          "en": "Laminate installation in Rotterdam",
+          "nl": "Laminaat leggen in Rotterdam"
+        }
+      },
+      {
+        "url": "\\work-5\\additional-img-8.jpg",
+        "alt_text": {
+          "sr": "Postavljanje laminata u Rotterdam-u",
+          "en": "Laminate installation in Rotterdam",
+          "nl": "Laminaat leggen in Rotterdam"
+        }
+      },
+      {
+        "url": "\\work-5\\additional-img-9.jpg",
+        "alt_text": {
+          "sr": "Postavljanje laminata u Rotterdam-u",
+          "en": "Laminate installation in Rotterdam",
+          "nl": "Laminaat leggen in Rotterdam"
+        }
+      },
+      {
+        "url": "\\work-5\\additional-img-10.jpg",
+        "alt_text": {
+          "sr": "Postavljanje laminata u Rotterdam-u",
+          "en": "Laminate installation in Rotterdam",
+          "nl": "Laminaat leggen in Rotterdam"
+        }
+      },
+      {
+        "url": "\\work-5\\additional-img-11.jpg",
+        "alt_text": {
+          "sr": "Postavljanje laminata u Rotterdam-u",
+          "en": "Laminate installation in Rotterdam",
+          "nl": "Laminaat leggen in Rotterdam"
+        }
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "work-6",
+    "project_type": {
+      "flag": "interior-works",
+      "category_name": {
+        "sr": "Unutrašnji radovi",
+        "en": "Interior works",
+        "nl": "Interieurwerken"
+      }
+    },
+    "title": {
+      "sr": "Ugradnja vrata u Rotterdam-u",
+      "en": "Door installation in Rotterdam",
+      "nl": "Deurinstallatie in Rotterdam"
+    },
+    "description": {
+      "sr": "Ovaj projekat je obuhvatio ugradnju novih vrata u stanu u Rotterdam-u. Ugradjena su nova vrata u dnevnoj sobi, kuhinji, kupatilu i toaletu.",
+      "en": "This project involved installing new doors in an apartment in Rotterdam. New doors were installed in the living room, kitchen, bathroom, and toilet.",
+      "nl": "Dit project omvatte het plaatsen van nieuwe deuren in een appartement in Rotterdam. Nieuwe deuren werden geïnstalleerd in de woonkamer, keuken, badkamer en toilet."
+    },
+    "showcase_img": {
+      "url": "\\work-6\\showcase.jpg",
+      "alt_text": {
+        "sr": "Ugradnja vrata u Rotterdam-u",
+        "en": "Door installation in Rotterdam",
+        "nl": "Deurinstallatie in Rotterdam"
+      }
+    },
+    "additional_imgs": [
+      {
+        "url": "\\work-6\\additional-img-1.jpg",
+        "alt_text": {
+          "sr": "Ugradnja vrata u Rotterdam-u",
+          "en": "Door installation in Rotterdam",
+          "nl": "Deurinstallatie in Rotterdam"
+        }
+      },
+      {
+        "url": "\\work-6\\additional-img-2.jpg",
+        "alt_text": {
+          "sr": "Ugradnja vrata u Rotterdam-u",
+          "en": "Door installation in Rotterdam",
+          "nl": "Deurinstallatie in Rotterdam"
+        }
+      },
+      {
+        "url": "\\work-6\\additional-img-3.jpg",
+        "alt_text": {
+          "sr": "Ugradnja vrata u Rotterdam-u",
+          "en": "Door installation in Rotterdam",
+          "nl": "Deurinstallatie in Rotterdam"
+        }
+      },
+      {
+        "url": "\\work-6\\additional-img-4.jpg",
+        "alt_text": {
+          "sr": "Ugradnja vrata u Rotterdam-u",
+          "en": "Door installation in Rotterdam",
+          "nl": "Deurinstallatie in Rotterdam"
+        }
+      },
+      {
+        "url": "\\work-6\\additional-img-5.jpg",
+        "alt_text": {
+          "sr": "Ugradnja vrata u Rotterdam-u",
+          "en": "Door installation in Rotterdam",
+          "nl": "Deurinstallatie in Rotterdam"
+        }
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "work-7",
+    "project_type": {
+      "flag": "other-works",
+      "category_name": {
+        "sr": "Ostali radovi",
+        "en": "Other works",
+        "nl": "Overige werken"
+      }
+    },
+    "title": {
+      "sr": "Zidne police od gipsa",
+      "en": "Plaster wall shelves",
+      "nl": "Gipsen wandplanken"
+    },
+    "description": {
+      "sr": "Projekat je radjen ponovo po specijalnoj zelji klijenta i po njegovom nacrtu. Ovaj projekat je obuhvatao konstruisanje i pravljenje dve gipsane zidne celine sa pregradama i rasvetom unutar svake, kao i ugradnjom elektro instalacije kroz obe celine. Na slikama ispod možete pratiti celi tok projekta po segmentima počevši od pravljenja konstrukcije na zidu, postavljanja strujnih instalacija, preko montiranja gipsanih ploča, fine obrade samih elemenata, štukovanja, farbanja do finalnog postavljanja rasvete i montiranja televizora i kamina. Ovaj projekat je uradjen u kući u Rotterdam-u.",
+      "en": "The project was done again according to a special client request and based on their design. This project covered the construction and creation of two plaster wall units with dividers and lighting inside each, as well as the installation of electrical wiring through both units. The images below chronicle the entire project process, from wall structure creation, electrical installation, mounting plasterboards, fine-tuning of the elements, stucco work, painting, to the final lighting setup and TV and fireplace installation. This project was completed in a house in Rotterdam.",
+      "nl": "Ook dit project is uitgevoerd op speciaal verzoek van de klant en op basis van hun eigen ontwerp. Dit project omvatte de constructie en het maken van twee gipsen wandunits met tussenschotten en verlichting in beide units, evenals de installatie van elektrische bedrading door beide units. Op de foto's hieronder kunt u de voortgang van het gehele project bekijken, van het maken van de wandstructuur, de elektrische installatie, het monteren van gipsplaten, het fijn afstellen van de elementen, stucwerk en schilderen, tot het uiteindelijke opzetten van de verlichting en het installeren van de TV en openhaard. Dit project is voltooid in een huis in Rotterdam."
+    },
+    "showcase_img": {
+      "url": "\\work-7\\showcase.jpeg",
+      "alt_text": {
+        "sr": "Zidne police od gipsa",
+        "en": "Plaster wall shelves",
+        "nl": "Gipsen wandplanken"
+      }
+    },
+    "additional_imgs": [
+      {
+        "url": "\\work-7\\additional-img-1.jpg",
+        "alt_text": {
+          "sr": "Zidne police od gipsa",
+          "en": "Plaster wall shelves",
+          "nl": "Gipsen wandplanken"
+        }
+      },
+      {
+        "url": "\\work-7\\additional-img-2.jpg",
+        "alt_text": {
+          "sr": "Zidne police od gipsa",
+          "en": "Plaster wall shelves",
+          "nl": "Gipsen wandplanken"
+        }
+      },
+      {
+        "url": "\\work-7\\additional-img-3.jpg",
+        "alt_text": {
+          "sr": "Zidne police od gipsa",
+          "en": "Plaster wall shelves",
+          "nl": "Gipsen wandplanken"
+        }
+      },
+      {
+        "url": "\\work-7\\additional-img-4.jpg",
+        "alt_text": {
+          "sr": "Zidne police od gipsa",
+          "en": "Plaster wall shelves",
+          "nl": "Gipsen wandplanken"
+        }
+      },
+      {
+        "url": "\\work-7\\additional-img-5.jpg",
+        "alt_text": {
+          "sr": "Zidne police od gipsa",
+          "en": "Plaster wall shelves",
+          "nl": "Gipsen wandplanken"
+        }
+      },
+      {
+        "url": "\\work-7\\additional-img-6.jpg",
+        "alt_text": {
+          "sr": "Zidne police od gipsa",
+          "en": "Plaster wall shelves",
+          "nl": "Gipsen wandplanken"
+        }
+      },
+      {
+        "url": "\\work-7\\additional-img-7.jpg",
+        "alt_text": {
+          "sr": "Zidne police od gipsa",
+          "en": "Plaster wall shelves",
+          "nl": "Gipsen wandplanken"
+        }
+      },
+      {
+        "url": "\\work-7\\additional-img-8.jpg",
+        "alt_text": {
+          "sr": "Zidne police od gipsa",
+          "en": "Plaster wall shelves",
+          "nl": "Gipsen wandplanken"
+        }
+      },
+      {
+        "url": "\\work-7\\additional-img-9.jpg",
+        "alt_text": {
+          "sr": "Zidne police od gipsa",
+          "en": "Plaster wall shelves",
+          "nl": "Gipsen wandplanken"
+        }
+      },
+      {
+        "url": "\\work-7\\additional-img-10.jpg",
+        "alt_text": {
+          "sr": "Zidne police od gipsa",
+          "en": "Plaster wall shelves",
+          "nl": "Gipsen wandplanken"
+        }
+      },
+      {
+        "url": "\\work-7\\additional-img-11.jpg",
+        "alt_text": {
+          "sr": "Zidne police od gipsa",
+          "en": "Plaster wall shelves",
+          "nl": "Gipsen wandplanken"
+        }
+      },
+      {
+        "url": "\\work-7\\additional-img-12.jpg",
+        "alt_text": {
+          "sr": "Zidne police od gipsa",
+          "en": "Plaster wall shelves",
+          "nl": "Gipsen wandplanken"
+        }
+      },
+      {
+        "url": "\\work-7\\additional-img-13.jpg",
+        "alt_text": {
+          "sr": "Zidne police od gipsa",
+          "en": "Plaster wall shelves",
+          "nl": "Gipsen wandplanken"
+        }
+      },
+      {
+        "url": "\\work-7\\additional-img-14.jpg",
+        "alt_text": {
+          "sr": "Zidne police od gipsa",
+          "en": "Plaster wall shelves",
+          "nl": "Gipsen wandplanken"
+        }
+      },
+      {
+        "url": "\\work-7\\additional-img-15.jpg",
+        "alt_text": {
+          "sr": "Zidne police od gipsa",
+          "en": "Plaster wall shelves",
+          "nl": "Gipsen wandplanken"
+        }
+      },
+      {
+        "url": "\\work-7\\additional-img-16.jpg",
+        "alt_text": {
+          "sr": "Zidne police od gipsa",
+          "en": "Plaster wall shelves",
+          "nl": "Gipsen wandplanken"
+        }
+      },
+      {
+        "url": "\\work-7\\additional-img-17.jpg",
+        "alt_text": {
+          "sr": "Zidne police od gipsa",
+          "en": "Plaster wall shelves",
+          "nl": "Gipsen wandplanken"
+        }
+      },
+      {
+        "url": "\\work-7\\additional-img-18.jpg",
+        "alt_text": {
+          "sr": "Zidne police od gipsa",
+          "en": "Plaster wall shelves",
+          "nl": "Gipsen wandplanken"
+        }
+      },
+      {
+        "url": "\\work-7\\additional-img-19.jpg",
+        "alt_text": {
+          "sr": "Zidne police od gipsa",
+          "en": "Plaster wall shelves",
+          "nl": "Gipsen wandplanken"
+        }
+      },
+      {
+        "url": "\\work-7\\additional-img-20.jpg",
+        "alt_text": {
+          "sr": "Zidne police od gipsa",
+          "en": "Plaster wall shelves",
+          "nl": "Gipsen wandplanken"
+        }
+      },
+      {
+        "url": "\\work-7\\additional-img-21.jpg",
+        "alt_text": {
+          "sr": "Zidne police od gipsa",
+          "en": "Plaster wall shelves",
+          "nl": "Gipsen wandplanken"
+        }
+      },
+      {
+        "url": "\\work-7\\additional-img-22.jpg",
+        "alt_text": {
+          "sr": "Zidne police od gipsa",
+          "en": "Plaster wall shelves",
+          "nl": "Gipsen wandplanken"
+        }
+      },
+      {
+        "url": "\\work-7\\additional-img-23.jpg",
+        "alt_text": {
+          "sr": "Zidne police od gipsa",
+          "en": "Plaster wall shelves",
+          "nl": "Gipsen wandplanken"
+        }
+      },
+      {
+        "url": "\\work-7\\additional-img-24.jpg",
+        "alt_text": {
+          "sr": "Zidne police od gipsa",
+          "en": "Plaster wall shelves",
+          "nl": "Gipsen wandplanken"
+        }
+      },
+      {
+        "url": "\\work-7\\additional-img-25.jpg",
+        "alt_text": {
+          "sr": "Zidne police od gipsa",
+          "en": "Plaster wall shelves",
+          "nl": "Gipsen wandplanken"
+        }
+      },
+      {
+        "url": "\\work-7\\additional-img-26.jpg",
+        "alt_text": {
+          "sr": "Zidne police od gipsa",
+          "en": "Plaster wall shelves",
+          "nl": "Gipsen wandplanken"
+        }
+      },
+      {
+        "url": "\\work-7\\additional-img-27.jpg",
+        "alt_text": {
+          "sr": "Zidne police od gipsa",
+          "en": "Plaster wall shelves",
+          "nl": "Gipsen wandplanken"
+        }
+      },
+      {
+        "url": "\\work-7\\additional-img-28.jpg",
+        "alt_text": {
+          "sr": "Zidne police od gipsa",
+          "en": "Plaster wall shelves",
+          "nl": "Gipsen wandplanken"
+        }
+      },
+      {
+        "url": "\\work-7\\additional-img-29.jpg",
+        "alt_text": {
+          "sr": "Zidne police od gipsa",
+          "en": "Plaster wall shelves",
+          "nl": "Gipsen wandplanken"
+        }
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "work-8",
+    "project_type": {
+      "flag": "other-works",
+      "category_name": {
+        "sr": "Ostali radovi",
+        "en": "Other works",
+        "nl": "Overige werken"
+      }
+    },
+    "title": {
+      "sr": "Montaža kupatilskih sanitarija",
+      "en": "Bathroom fittings installation",
+      "nl": "Installatie van sanitair"
+    },
+    "description": {
+      "sr": "Ovaj projekat je obuhvatio montažu kupatilskih sanitarija u jednom stanu u Rotterdam-u. Ugradjeni su novi lavaboi, tuš kabina, tuš baterije(slavina), vodokotlić, WC solja i ogledala.",
+      "en": "This project involved the installation of bathroom fittings in an apartment in Rotterdam. New sinks, shower cabin, shower faucets, flush tank, toilet bowl, and mirrors were installed.",
+      "nl": "Dit project betrof de installatie van sanitair in een appartement in Rotterdam. Nieuwe wastafels, douchecabine, douchekranen, spoelbak, toilet en spiegels werden geïnstalleerd."
+    },
+    "showcase_img": {
+      "url": "\\work-8\\showcase.jpg",
+      "alt_text": {
+        "sr": "Montaža kupatilskih sanitarija",
+        "en": "Bathroom fittings installation",
+        "nl": "Installatie van sanitair"
+      }
+    },
+    "additional_imgs": [
+      {
+        "url": "\\work-8\\additional-img-1.jpg",
+        "alt_text": {
+          "sr": "Montaža kupatilskih sanitarija",
+          "en": "Bathroom fittings installation",
+          "nl": "Installatie van sanitair"
+        }
+      },
+      {
+        "url": "\\work-8\\additional-img-2.jpg",
+        "alt_text": {
+          "sr": "Montaža kupatilskih sanitarija",
+          "en": "Bathroom fittings installation",
+          "nl": "Installatie van sanitair"
+        }
+      },
+      {
+        "url": "\\work-8\\additional-img-3.jpg",
+        "alt_text": {
+          "sr": "Montaža kupatilskih sanitarija",
+          "en": "Bathroom fittings installation",
+          "nl": "Installatie van sanitair"
+        }
+      },
+      {
+        "url": "\\work-8\\additional-img-4.jpg",
+        "alt_text": {
+          "sr": "Montaža kupatilskih sanitarija",
+          "en": "Bathroom fittings installation",
+          "nl": "Installatie van sanitair"
+        }
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "name": "work-9",
+    "project_type": {
+      "flag": "installations",
+      "category_name": {
+        "sr": "Instalacije",
+        "en": "Installations",
+        "nl": "Installaties"
+      }
+    },
+    "title": {
+      "sr": "Elektro instalacije",
+      "en": "Electrical installations",
+      "nl": "Elektrische installaties"
+    },
+    "description": {
+      "sr": "Elektro instalacije u ovom konkretnom projektu obuhvataju razvlačenje kablova kroz zidove, kao i ugradnju utičnica i prekidača. Ovaj projekat je uradjen u kući u Rotterdam-u.",
+      "en": "This specific project on electrical installations includes running cables through walls, as well as the installation of sockets and switches. This project was completed in a house in Rotterdam.",
+      "nl": "Dit specifieke project voor elektrische installaties omvat het trekken van kabels door muren, evenals de installatie van stopcontacten en schakelaars. Dit project is uitgevoerd in een huis in Rotterdam."
+    },
+    "showcase_img": {
+      "url": "\\work-9\\showcase.jpg",
+      "alt_text": {
+        "sr": "Elektro instalacije",
+        "en": "Electrical installations",
+        "nl": "Elektrische installaties"
+      }
+    },
+    "additional_imgs": [
+      {
+        "url": "\\work-9\\additional-img-1.jpg",
+        "alt_text": {
+          "sr": "Elektro instalacije",
+          "en": "Electrical installations",
+          "nl": "Elektrische installaties"
+        }
+      },
+      {
+        "url": "\\work-9\\additional-img-2.jpg",
+        "alt_text": {
+          "sr": "Elektro instalacije",
+          "en": "Electrical installations",
+          "nl": "Elektrische installaties"
+        }
+      },
+      {
+        "url": "\\work-9\\additional-img-3.jpg",
+        "alt_text": {
+          "sr": "Elektro instalacije",
+          "en": "Electrical installations",
+          "nl": "Elektrische installaties"
+        }
+      },
+      {
+        "url": "\\work-9\\additional-img-4.jpg",
+        "alt_text": {
+          "sr": "Elektro instalacije",
+          "en": "Electrical installations",
+          "nl": "Elektrische installaties"
+        }
+      },
+      {
+        "url": "\\work-9\\additional-img-5.jpg",
+        "alt_text": {
+          "sr": "Elektro instalacije",
+          "en": "Electrical installations",
+          "nl": "Elektrische installaties"
+        }
+      },
+      {
+        "url": "\\work-9\\additional-img-6.jpg",
+        "alt_text": {
+          "sr": "Elektro instalacije",
+          "en": "Electrical installations",
+          "nl": "Elektrische installaties"
+        }
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "name": "work-10",
+    "project_type": {
+      "flag": "ceramic-works",
+      "category_name": {
+        "sr": "Keramičarski radovi",
+        "en": "Ceramic works",
+        "nl": "Keramiekwerken"
+      }
+    },
+    "title": {
+      "sr": "Renovacija toaleta u Laiden-u",
+      "en": "Toilet renovation in Leiden",
+      "nl": "Toiletrenovatie in Leiden"
+    },
+    "description": {
+      "sr": "Ovaj projekat je obuhvatio postavljanje novih pločica na zidove i pod i montiranje sanitarija. Montirana je nova WC solja, lavabo sa pomoćnom policom ispod, geberit, luster, i svetlo sa senzorom pokreta. Ovaj projekat je uradjen u kući u Laiden-u.",
+      "en": "This project involved installing new tiles on the walls and floor and assembling sanitary equipment. A new toilet bowl, sink with a storage shelf underneath, Geberit system, chandelier, and motion-sensor light were installed. The project was carried out in a house in Leiden.",
+      "nl": "Dit project omvatte het plaatsen van nieuwe tegels op de muren en vloer en het monteren van sanitair. Er is een nieuwe toiletpot, een wastafel met een opbergplank eronder, een Geberit-systeem, een kroonluchter en een lamp met bewegingssensor geïnstalleerd. Het project is uitgevoerd in een huis in Leiden."
+    },
+    "showcase_img": {
+      "url": "\\work-10\\showcase.jpg",
+      "alt_text": {
+        "sr": "Renovacija toaleta u Laiden-u",
+        "en": "Toilet renovation in Leiden",
+        "nl": "Toiletrenovatie in Leiden"
+      }
+    },
+    "additional_imgs": [
+      {
+        "url": "\\work-10\\additional-img-1.jpg",
+        "alt_text": {
+          "sr": "Renovacija toaleta u Laiden-u",
+          "en": "Toilet renovation in Leiden",
+          "nl": "Toiletrenovatie in Leiden"
+        }
+      },
+      {
+        "url": "\\work-10\\additional-img-2.jpg",
+        "alt_text": {
+          "sr": "Renovacija toaleta u Laiden-u",
+          "en": "Toilet renovation in Leiden",
+          "nl": "Toiletrenovatie in Leiden"
+        }
+      },
+      {
+        "url": "\\work-10\\additional-img-3.jpg",
+        "alt_text": {
+          "sr": "Renovacija toaleta u Laiden-u",
+          "en": "Toilet renovation in Leiden",
+          "nl": "Toiletrenovatie in Leiden"
+        }
+      },
+      {
+        "url": "\\work-10\\additional-img-4.jpg",
+        "alt_text": {
+          "sr": "Renovacija toaleta u Laiden-u",
+          "en": "Toilet renovation in Leiden",
+          "nl": "Toiletrenovatie in Leiden"
+        }
+      },
+      {
+        "url": "\\work-10\\additional-img-5.jpg",
+        "alt_text": {
+          "sr": "Renovacija toaleta u Laiden-u",
+          "en": "Toilet renovation in Leiden",
+          "nl": "Toiletrenovatie in Leiden"
+        }
+      },
+      {
+        "url": "\\work-10\\additional-img-6.jpg",
+        "alt_text": {
+          "sr": "Renovacija toaleta u Laiden-u",
+          "en": "Toilet renovation in Leiden",
+          "nl": "Toiletrenovatie in Leiden"
+        }
+      },
+      {
+        "url": "\\work-10\\additional-img-7.jpg",
+        "alt_text": {
+          "sr": "Renovacija toaleta u Laiden-u",
+          "en": "Toilet renovation in Leiden",
+          "nl": "Toiletrenovatie in Leiden"
+        }
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "work-2",
+    "project_type": {
+      "flag": "ceramic-works",
+      "category_name": {
+        "sr": "Keramičarski radovi",
+        "en": "Ceramic works",
+        "nl": "Keramiekwerken"
+      }
+    },
+    "title": {
+      "sr": "Renoviranje toaleta u Rotterdam-u",
+      "en": "Toilet renovation in Rotterdam",
+      "nl": "Toiletrenovatie in Rotterdam"
+    },
+    "description": {
+      "sr": "Ovaj projekat je obuhvatao celokupno renoviranje toaleta i sanitarija. Radovi koji obuhvataju ovaj projekat su: postavljanje novih pločica na zidove i pod, postavljanje novog vodovodnog sistema, postavljanje novog električnog sistema, postavljanje novog plafona, postavljanje novih sanitarija, postavljanje novog ogledala, postavljanje novog vodokotlića, postavljanje novog lavaboa, postavljanje novog tuša. Ovaj projekat je uradjen u kući u Rotterdam-u.",
+      "en": "This project encompassed the complete renovation of the toilet and sanitary facilities. Works included: installing new tiles on walls and floor, setting up a new plumbing system, installing a new electrical system, adding a new ceiling, fitting new sanitary ware, placing a new mirror, installing a new flush tank, fitting a new sink, and installing a new shower. The project was carried out in a house in Rotterdam.",
+      "nl": "Dit project omvatte de complete renovatie van het toilet en sanitaire voorzieningen. De werkzaamheden omvatten: nieuwe tegels plaatsen op muren en vloer, een nieuw sanitair systeem installeren, een nieuw elektrisch systeem installeren, een nieuw plafond aanbrengen, nieuw sanitair plaatsen, een nieuwe spiegel plaatsen, een nieuw spoelreservoir installeren, een nieuwe wastafel plaatsen en een nieuwe douche installeren. Het project is uitgevoerd in een woning in Rotterdam."
+    },
+    "showcase_img": {
+      "url": "\\work-2\\showcase.jpg",
+      "alt_text": {
+        "sr": "Renoviranje toaleta u Rotterdam-u",
+        "en": "Toilet renovation in Rotterdam",
+        "nl": "Toiletrenovatie in Rotterdam"
+      }
+    },
+    "additional_imgs": [
+      {
+        "url": "\\work-2\\additional-img-1.jpg",
+        "alt_text": {
+          "sr": "Renoviranje toaleta u Rotterdam-u",
+          "en": "Toilet renovation in Rotterdam",
+          "nl": "Toiletrenovatie in Rotterdam"
+        }
+      },
+      {
+        "url": "\\work-2\\additional-img-2.jpg",
+        "alt_text": {
+          "sr": "Renoviranje toaleta u Rotterdam-u",
+          "en": "Toilet renovation in Rotterdam",
+          "nl": "Toiletrenovatie in Rotterdam"
+        }
+      },
+      {
+        "url": "\\work-2\\additional-img-3.jpg",
+        "alt_text": {
+          "sr": "Renoviranje toaleta u Rotterdam-u",
+          "en": "Toilet renovation in Rotterdam",
+          "nl": "Toiletrenovatie in Rotterdam"
+        }
+      },
+      {
+        "url": "\\work-2\\additional-img-4.jpg",
+        "alt_text": {
+          "sr": "Renoviranje toaleta u Rotterdam-u",
+          "en": "Toilet renovation in Rotterdam",
+          "nl": "Toiletrenovatie in Rotterdam"
+        }
+      },
+      {
+        "url": "\\work-2\\additional-img-5.jpg",
+        "alt_text": {
+          "sr": "Renoviranje toaleta u Rotterdam-u",
+          "en": "Toilet renovation in Rotterdam",
+          "nl": "Toiletrenovatie in Rotterdam"
+        }
+      },
+      {
+        "url": "\\work-2\\additional-img-6.jpg",
+        "alt_text": {
+          "sr": "Renoviranje toaleta u Rotterdam-u",
+          "en": "Toilet renovation in Rotterdam",
+          "nl": "Toiletrenovatie in Rotterdam"
+        }
+      },
+      {
+        "url": "\\work-2\\additional-img-7.jpg",
+        "alt_text": {
+          "sr": "Renoviranje toaleta u Rotterdam-u",
+          "en": "Toilet renovation in Rotterdam",
+          "nl": "Toiletrenovatie in Rotterdam"
+        }
+      },
+      {
+        "url": "\\work-2\\additional-img-8.jpg",
+        "alt_text": {
+          "sr": "Renoviranje toaleta u Rotterdam-u",
+          "en": "Toilet renovation in Rotterdam",
+          "nl": "Toiletrenovatie in Rotterdam"
+        }
+      },
+      {
+        "url": "\\work-2\\additional-img-9.jpg",
+        "alt_text": {
+          "sr": "Renoviranje toaleta u Rotterdam-u",
+          "en": "Toilet renovation in Rotterdam",
+          "nl": "Toiletrenovatie in Rotterdam"
+        }
+      },
+      {
+        "url": "\\work-2\\additional-img-10.jpg",
+        "alt_text": {
+          "sr": "Renoviranje toaleta u Rotterdam-u",
+          "en": "Toilet renovation in Rotterdam",
+          "nl": "Toiletrenovatie in Rotterdam"
+        }
+      },
+      {
+        "url": "\\work-2\\additional-img-11.jpg",
+        "alt_text": {
+          "sr": "Renoviranje toaleta u Rotterdam-u",
+          "en": "Toilet renovation in Rotterdam",
+          "nl": "Toiletrenovatie in Rotterdam"
+        }
+      },
+      {
+        "url": "\\work-2\\additional-img-12.jpg",
+        "alt_text": {
+          "sr": "Renoviranje toaleta u Rotterdam-u",
+          "en": "Toilet renovation in Rotterdam",
+          "nl": "Toiletrenovatie in Rotterdam"
+        }
+      },
+      {
+        "url": "\\work-2\\additional-img-13.jpg",
+        "alt_text": {
+          "sr": "Renoviranje toaleta u Rotterdam-u",
+          "en": "Toilet renovation in Rotterdam",
+          "nl": "Toiletrenovatie in Rotterdam"
+        }
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "name": "work-11",
+    "project_type": {
+      "flag": "ceramic-works",
+      "category_name": {
+        "sr": "Keramičarski radovi",
+        "en": "Ceramic works",
+        "nl": "Keramiekwerken"
+      }
+    },
+    "title": {
+      "sr": "Renovacija toaleta u Utrecht-u",
+      "en": "Toilet renovation in Utrecht",
+      "nl": "Toiletrenovatie in Utrecht"
+    },
+    "description": {
+      "sr": "Ovaj projekat obuhvatio je postavljanje novih pločica na zidove(do pola zida, jer je klijent tako tražio) i pod i montiranje sanitarija. Montirana je nova WC solja, lavabo, geberit, držač za WC papir, kao i radijator koji je samo prefarban i ponovo namešten. Ovaj projekat je uradjen u kući u Utrecht-u.",
+      "en": "This project included laying new tiles on the walls (up to halfway as the client requested) and floor, as well as installing sanitary ware. A new toilet bowl, sink, geberit, toilet paper holder were installed, and the radiator was merely repainted and repositioned. The project was completed in a house in Utrecht.",
+      "nl": "Dit project omvatte het leggen van nieuwe tegels op de muren (tot halverwege zoals de klant had gevraagd) en vloer, evenals het installeren van sanitair. Een nieuw toilet, wastafel, Geberit, toiletpapierhouder werden geïnstalleerd. De radiator werd opnieuw geverfd en verplaatst. Het project is voltooid in een huis in Utrecht."
+    },
+    "showcase_img": {
+      "url": "\\work-11\\showcase.jpg",
+      "alt_text": {
+        "sr": "Renovacija toaleta u Utrecht-u",
+        "en": "Toilet renovation in Utrecht",
+        "nl": "Toiletrenovatie in Utrecht"
+      }
+    },
+    "additional_imgs": [
+      {
+        "url": "\\work-11\\additional-img-1.jpg",
+        "alt_text": {
+          "sr": "Renovacija toaleta u Utrecht-u",
+          "en": "Toilet renovation in Utrecht",
+          "nl": "Toiletrenovatie in Utrecht"
+        }
+      },
+      {
+        "url": "\\work-11\\additional-img-2.jpg",
+        "alt_text": {
+          "sr": "Renovacija toaleta u Utrecht-u",
+          "en": "Toilet renovation in Utrecht",
+          "nl": "Toiletrenovatie in Utrecht"
+        }
+      },
+      {
+        "url": "\\work-11\\additional-img-3.jpg",
+        "alt_text": {
+          "sr": "Renovacija toaleta u Utrecht-u",
+          "en": "Toilet renovation in Utrecht",
+          "nl": "Toiletrenovatie in Utrecht"
+        }
+      },
+      {
+        "url": "\\work-11\\additional-img-4.jpg",
+        "alt_text": {
+          "sr": "Renovacija toaleta u Utrecht-u",
+          "en": "Toilet renovation in Utrecht",
+          "nl": "Toiletrenovatie in Utrecht"
+        }
+      },
+      {
+        "url": "\\work-11\\additional-img-5.jpg",
+        "alt_text": {
+          "sr": "Renovacija toaleta u Utrecht-u",
+          "en": "Toilet renovation in Utrecht",
+          "nl": "Toiletrenovatie in Utrecht"
+        }
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "name": "work-12",
+    "project_type": {
+      "flag": "other-works",
+      "category_name": {
+        "sr": "Ostali radovi",
+        "en": "Other works",
+        "nl": "Overige werken"
+      }
+    },
+    "title": {
+      "sr": "Ugradni kamin sa propratnim digitalnim uredjajima",
+      "en": "Built-in fireplace with accompanying digital devices",
+      "nl": "Ingebouwde haard met bijbehorende digitale apparaten"
+    },
+    "description": {
+      "sr": "Ovaj projekat predstavlja miks gipsanih i elektro radova, tako da gipsani radovi obuhvataju konstruisanje i pravljenje celine za ugradni kamin, dok u elektro radove spadaju izvodjenje utičnica za elektro uredjaje, u konkretnom slučaju, kamin, TV i audio kutija za muziku, montiranje pomenutih uredjaja kao i montiranje pametnog prekidača sa potenciometrom za regulaciju jačine svetlosti. Ovaj projekat je uradjen u kući u Rotterdam-u.",
+      "en": "This project represents a mix of plaster and electrical works. The plaster works include the construction and design of the space for the built-in fireplace. The electrical works include the installation of outlets for electronic devices, specifically, the fireplace, TV, and audio box for music, installation of mentioned devices, and the installation of a smart switch with a potentiometer for light intensity regulation. This project was done in a house in Rotterdam.",
+      "nl": "Dit project is een mix van gips- en elektriciteitswerken. Het gipswerk omvat de constructie en het ontwerp van de ruimte voor de ingebouwde haard. De elektriciteitswerken omvatten de installatie van stopcontacten voor elektronische apparaten, specifiek de haard, TV en audiobox voor muziek, installatie van genoemde apparaten, en de installatie van een slimme schakelaar met een potentiometer voor lichtintensiteitsregeling. Dit project is uitgevoerd in een huis in Rotterdam."
+    },
+    "showcase_img": {
+      "url": "\\work-12\\showcase.jpg",
+      "alt_text": {
+        "sr": "Ugradni kamin sa propratnim digitalnim uredjajima",
+        "en": "Built-in fireplace with accompanying digital devices",
+        "nl": "Ingebouwde haard met bijbehorende digitale apparaten"
+      }
+    },
+    "additional_imgs": [
+      {
+        "url": "\\work-12\\additional-img-1.jpg",
+        "alt_text": {
+          "sr": "Ugradni kamin sa propratnim digitalnim uredjajima",
+          "en": "Built-in fireplace with accompanying digital devices",
+          "nl": "Ingebouwde haard met bijbehorende digitale apparaten"
+        }
+      },
+      {
+        "url": "\\work-12\\additional-img-2.jpg",
+        "alt_text": {
+          "sr": "Ugradni kamin sa propratnim digitalnim uredjajima",
+          "en": "Built-in fireplace with accompanying digital devices",
+          "nl": "Ingebouwde haard met bijbehorende digitale apparaten"
+        }
+      },
+      {
+        "url": "\\work-12\\additional-img-3.jpg",
+        "alt_text": {
+          "sr": "Ugradni kamin sa propratnim digitalnim uredjajima",
+          "en": "Built-in fireplace with accompanying digital devices",
+          "nl": "Ingebouwde haard met bijbehorende digitale apparaten"
+        }
+      },
+      {
+        "url": "\\work-12\\additional-img-4.jpg",
+        "alt_text": {
+          "sr": "Ugradni kamin sa propratnim digitalnim uredjajima",
+          "en": "Built-in fireplace with accompanying digital devices",
+          "nl": "Ingebouwde haard met bijbehorende digitale apparaten"
+        }
+      },
+      {
+        "url": "\\work-12\\additional-img-5.jpg",
+        "alt_text": {
+          "sr": "Ugradni kamin sa propratnim digitalnim uredjajima",
+          "en": "Built-in fireplace with accompanying digital devices",
+          "nl": "Ingebouwde haard met bijbehorende digitale apparaten"
+        }
+      },
+      {
+        "url": "\\work-12\\additional-img-6.jpg",
+        "alt_text": {
+          "sr": "Ugradni kamin sa propratnim digitalnim uredjajima",
+          "en": "Built-in fireplace with accompanying digital devices",
+          "nl": "Ingebouwde haard met bijbehorende digitale apparaten"
+        }
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "name": "work-13",
+    "project_type": {
+      "flag": "interior-works",
+      "category_name": {
+        "sr": "Unutrašnji radovi",
+        "en": "Interior works",
+        "nl": "Interieurwerken"
+      }
+    },
+    "title": {
+      "sr": "Unutrašnji radovi od gipsa",
+      "en": "Plasterboard interior works",
+      "nl": "Gipsplaat interieurwerken"
+    },
+    "description": {
+      "sr": "Ovaj projekat obuhvatio je pravljnje raznih gipsanih particija. U najvecoj meri, to su bile particije za pravljenje pregradnih zidova soba, ali i jedna particija kao pregradni zid ispod prozora. Ovaj projekat je uradjen u kući u Utrecht-u.",
+      "en": "This project involved creating various plasterboard partitions. Mostly, these were partitions for creating room partition walls, but also a partition as a wall below a window. This project was done in a house in Utrecht.",
+      "nl": "Dit project betrof het maken van diverse gipswanden. De meeste waren voor het creëren van scheidingswanden voor ruimtes, maar ook een als gipswand onder een raam. Dit project is uitgevoerd in een huis in Utrecht."
+    },
+    "showcase_img": {
+      "url": "\\work-13\\showcase.jpg",
+      "alt_text": {
+        "sr": "Unutrašnji radovi od gipsa",
+        "en": "Plasterboard interior works",
+        "nl": "Gipsplaat interieurwerken"
+      }
+    },
+    "additional_imgs": [
+      {
+        "url": "\\work-13\\additional-img-1.jpg",
+        "alt_text": {
+          "sr": "Unutrašnji radovi od gipsa",
+          "en": "Plasterboard interior works",
+          "nl": "Gipsplaat interieurwerken"
+        }
+      },
+      {
+        "url": "\\work-13\\additional-img-2.jpg",
+        "alt_text": {
+          "sr": "Unutrašnji radovi od gipsa",
+          "en": "Plasterboard interior works",
+          "nl": "Gipsplaat interieurwerken"
+        }
+      },
+      {
+        "url": "\\work-13\\additional-img-3.jpg",
+        "alt_text": {
+          "sr": "Unutrašnji radovi od gipsa",
+          "en": "Plasterboard interior works",
+          "nl": "Gipsplaat interieurwerken"
+        }
+      },
+      {
+        "url": "\\work-13\\additional-img-4.jpg",
+        "alt_text": {
+          "sr": "Unutrašnji radovi od gipsa",
+          "en": "Plasterboard interior works",
+          "nl": "Gipsplaat interieurwerken"
+        }
+      },
+      {
+        "url": "\\work-13\\additional-img-5.jpg",
+        "alt_text": {
+          "sr": "Unutrašnji radovi od gipsa",
+          "en": "Plasterboard interior works",
+          "nl": "Gipsplaat interieurwerken"
+        }
+      },
+      {
+        "url": "\\work-13\\additional-img-6.jpg",
+        "alt_text": {
+          "sr": "Unutrašnji radovi od gipsa",
+          "en": "Plasterboard interior works",
+          "nl": "Gipsplaat interieurwerken"
+        }
+      },
+      {
+        "url": "\\work-13\\additional-img-7.jpg",
+        "alt_text": {
+          "sr": "Unutrašnji radovi od gipsa",
+          "en": "Plasterboard interior works",
+          "nl": "Gipsplaat interieurwerken"
+        }
+      },
+      {
+        "url": "\\work-13\\additional-img-8.jpg",
+        "alt_text": {
+          "sr": "Unutrašnji radovi od gipsa",
+          "en": "Plasterboard interior works",
+          "nl": "Gipsplaat interieurwerken"
+        }
+      },
+      {
+        "url": "\\work-13\\additional-img-9.jpg",
+        "alt_text": {
+          "sr": "Unutrašnji radovi od gipsa",
+          "en": "Plasterboard interior works",
+          "nl": "Gipsplaat interieurwerken"
+        }
+      },
+      {
+        "url": "\\work-13\\additional-img-10.jpg",
+        "alt_text": {
+          "sr": "Unutrašnji radovi od gipsa",
+          "en": "Plasterboard interior works",
+          "nl": "Gipsplaat interieurwerken"
+        }
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "name": "work-14",
+    "project_type": {
+      "flag": "interior-works",
+      "category_name": {
+        "sr": "Unutrašnji radovi",
+        "en": "Interior works",
+        "nl": "Interieurwerken"
+      }
+    },
+    "title": {
+      "sr": "Farbanje zidova i vrata",
+      "en": "Painting of walls and doors",
+      "nl": "Schilderen van muren en deuren"
+    },
+    "description": {
+      "sr": "Ovaj projekat obuhvatio je kompletno farbanje zidova i vrata u kući u Utrecht-u. U pitanju je bila kuća koja je bila u izgradnji, tako da je bilo potrebno odraditi kompletan posao farbanja zidova i vrata.",
+      "en": "This project encompassed the complete painting of walls and doors in a house in Utrecht. The house was under construction, so it was necessary to do the entire job of painting the walls and doors.",
+      "nl": "Dit project omvatte het volledig schilderen van muren en deuren in een huis in Utrecht. De woning was in aanbouw, dus het was nodig om het volledige schilderwerk van de muren en deuren te doen."
+    },
+    "showcase_img": {
+      "url": "\\work-14\\showcase.jpg",
+      "alt_text": {
+        "sr": "Farbanje zidova i vrata",
+        "en": "Painting of walls and doors",
+        "nl": "Schilderen van muren en deuren"
+      }
+    },
+    "additional_imgs": [
+      {
+        "url": "\\work-14\\additional-img-1.jpg",
+        "alt_text": {
+          "sr": "Farbanje zidova i vrata",
+          "en": "Painting of walls and doors",
+          "nl": "Schilderen van muren en deuren"
+        }
+      },
+      {
+        "url": "\\work-14\\additional-img-2.jpg",
+        "alt_text": {
+          "sr": "Farbanje zidova i vrata",
+          "en": "Painting of walls and doors",
+          "nl": "Schilderen van muren en deuren"
+        }
+      },
+      {
+        "url": "\\work-14\\additional-img-3.jpg",
+        "alt_text": {
+          "sr": "Farbanje zidova i vrata",
+          "en": "Painting of walls and doors",
+          "nl": "Schilderen van muren en deuren"
+        }
+      },
+      {
+        "url": "\\work-14\\additional-img-4.jpg",
+        "alt_text": {
+          "sr": "Farbanje zidova i vrata",
+          "en": "Painting of walls and doors",
+          "nl": "Schilderen van muren en deuren"
+        }
+      },
+      {
+        "url": "\\work-14\\additional-img-5.jpg",
+        "alt_text": {
+          "sr": "Farbanje zidova i vrata",
+          "en": "Painting of walls and doors",
+          "nl": "Schilderen van muren en deuren"
+        }
+      },
+      {
+        "url": "\\work-14\\additional-img-6.jpg",
+        "alt_text": {
+          "sr": "Farbanje zidova i vrata",
+          "en": "Painting of walls and doors",
+          "nl": "Schilderen van muren en deuren"
+        }
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "name": "work-15",
+    "project_type": {
+      "flag": "installations",
+      "category_name": {
+        "sr": "Instalacije",
+        "en": "Installations",
+        "nl": "Installaties"
+      }
+    },
+    "title": {
+      "sr": "Uvodjenje grejanja",
+      "en": "Introduction of heating",
+      "nl": "Installeren van verwarming"
+    },
+    "description": {
+      "sr": "Ovaj projekat obuhvatio je uvođenje grejanja u kuću u Utrecht-u. U pitanju je bila kuća koja je bila u izgradnji, tako da je bilo potrebno odraditi kompletan posao uvođenja grejanja. Poslovi koji su urdjeni: razvlačenje grejnih instalacija, postavljanje i montiranje kejtla i radijatora, pustanje kejtla u rad i zračenje radijatora.",
+      "en": "This project involved introducing heating to a house in Utrecht. The house was under construction, so it was necessary to complete the entire job of introducing heating. Tasks performed include: laying out heating installations, installing and mounting the boiler and radiators, starting up the boiler, and venting the radiators.",
+      "nl": "Dit project betrof de installatie van verwarming in een huis in Utrecht. Het huis was in aanbouw, dus het was noodzakelijk om de gehele klus van het installeren van verwarming te klaren. Uitgevoerde taken zijn: het aanleggen van verwarmingsinstallaties, het installeren en monteren van de ketel en radiatoren, het opstarten van de ketel en het ontluchten van de radiatoren."
+    },
+    "showcase_img": {
+      "url": "\\work-15\\showcase.jpg",
+      "alt_text": {
+        "sr": "Uvodjenje grejanja",
+        "en": "Introduction of heating",
+        "nl": "Installatie van verwarming"
+      }
+    },
+    "additional_imgs": [
+      {
+        "url": "\\work-15\\additional-img-1.jpg",
+        "alt_text": {
+          "sr": "Uvodjenje grejanja",
+          "en": "Introduction of heating",
+          "nl": "Installatie van verwarming"
+        }
+      },
+      {
+        "url": "\\work-15\\additional-img-2.jpg",
+        "alt_text": {
+          "sr": "Uvodjenje grejanja",
+          "en": "Introduction of heating",
+          "nl": "Installatie van verwarming"
+        }
+      },
+      {
+        "url": "\\work-15\\additional-img-3.jpg",
+        "alt_text": {
+          "sr": "Uvodjenje grejanja",
+          "en": "Introduction of heating",
+          "nl": "Installatie van verwarming"
+        }
+      },
+      {
+        "url": "\\work-15\\additional-img-4.jpg",
+        "alt_text": {
+          "sr": "Uvodjenje grejanja",
+          "en": "Introduction of heating",
+          "nl": "Installatie van verwarming"
+        }
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "name": "work-16",
+    "project_type": {
+      "flag": "interior-works",
+      "category_name": {
+        "sr": "Unutrašnji radovi",
+        "en": "Interior works",
+        "nl": "Interieurwerken"
+      }
+    },
+    "title": {
+      "sr": "Postavlanje laminata u kući u Utrecht-u",
+      "en": "Laminate flooring installation in a house in Utrecht",
+      "nl": "Laminaat leggen in een huis in Utrecht"
+    },
+    "description": {
+      "sr": "Ovaj projekat obuhvatio je postavljnaje laminata i lajsni u celoj kući u Utrecht-u.",
+      "en": "This project involved installing laminate flooring and skirting throughout a house in Utrecht.",
+      "nl": "Dit project betrof het leggen van laminaat en plinten in een heel huis in Utrecht."
+    },
+    "showcase_img": {
+      "url": "\\work-16\\showcase.jpg",
+      "alt_text": {
+        "sr": "Postavlanje laminata u kući u Utrecht-u",
+        "en": "Laminate flooring installation in a house in Utrecht",
+        "nl": "Laminaat leggen in een huis in Utrecht"
+      }
+    },
+    "additional_imgs": [
+      {
+        "url": "\\work-16\\additional-img-1.jpg",
+        "alt_text": {
+          "sr": "Postavlanje laminata u kući u Utrecht-u",
+          "en": "Laminate flooring installation in a house in Utrecht",
+          "nl": "Laminaat leggen in een huis in Utrecht"
+        }
+      },
+      {
+        "url": "\\work-16\\additional-img-2.jpg",
+        "alt_text": {
+          "sr": "Postavlanje laminata u kući u Utrecht-u",
+          "en": "Laminate flooring installation in a house in Utrecht",
+          "nl": "Laminaat leggen in een huis in Utrecht"
+        }
+      },
+      {
+        "url": "\\work-16\\additional-img-3.jpg",
+        "alt_text": {
+          "sr": "Postavlanje laminata u kući u Utrecht-u",
+          "en": "Laminate flooring installation in a house in Utrecht",
+          "nl": "Laminaat leggen in een huis in Utrecht"
+        }
+      },
+      {
+        "url": "\\work-16\\additional-img-4.jpg",
+        "alt_text": {
+          "sr": "Postavlanje laminata u kući u Utrecht-u",
+          "en": "Laminate flooring installation in a house in Utrecht",
+          "nl": "Laminaat leggen in een huis in Utrecht"
+        }
+      },
+      {
+        "url": "\\work-16\\additional-img-5.jpg",
+        "alt_text": {
+          "sr": "Postavlanje laminata u kući u Utrecht-u",
+          "en": "Laminate flooring installation in a house in Utrecht",
+          "nl": "Laminaat leggen in een huis in Utrecht"
+        }
+      },
+      {
+        "url": "\\work-16\\additional-img-6.jpg",
+        "alt_text": {
+          "sr": "Postavlanje laminata u kući u Utrecht-u",
+          "en": "Laminate flooring installation in a house in Utrecht",
+          "nl": "Laminaat leggen in een huis in Utrecht"
+        }
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "name": "work-17",
+    "project_type": {
+      "flag": "ceramic-works",
+      "category_name": {
+        "sr": "Keramičarski radovi",
+        "en": "Ceramic works",
+        "nl": "Keramiekwerken"
+      }
+    },
+    "title": {
+      "sr": "Kompletna renovacija kupatila i toaleta u Utrecht-u",
+      "en": "Complete renovation of bathroom and toilet in Utrecht",
+      "nl": "Volledige renovatie van badkamer en toilet in Utrecht"
+    },
+    "description": {
+      "sr": "Na ovom projektu kompletna renovacija kupatila i toaleta obuhvatila je postavljanje zidnih i podnih pločica kao i postavljanje propratnih sanitarija od kojih su neke: tuš i tuš kabina, lavabo, wc šolja, geberit, ogledalo, kao i sensori pokreta za paljanje svetala. Ovaj projekat je uradjen u kući u Utrecht-u.",
+      "en": "This project of complete bathroom and toilet renovation included the installation of wall and floor tiles as well as the fitting of accompanying sanitary ware such as: shower and shower cabin, sink, toilet bowl, Geberit system, mirror, and motion sensors for turning on the lights. This project was completed in a house in Utrecht.",
+      "nl": "Dit project van complete badkamer- en toiletrenovatie omvatte het plaatsen van wand- en vloertegels en het installeren van bijbehorend sanitair zoals: douche en douchecabine, wastafel, toiletpot, Geberit-systeem, spiegel en bewegingssensoren voor de verlichting. Dit project is uitgevoerd in een woning in Utrecht."
+    },
+    "showcase_img": {
+      "url": "\\work-17\\showcase.jpg",
+      "alt_text": {
+        "sr": "Kompletna renovacija kupatila i toaleta u Utrecht-u",
+        "en": "Complete renovation of bathroom and toilet in Utrecht",
+        "nl": "Volledige renovatie van badkamer en toilet in Utrecht"
+      }
+    },
+    "additional_imgs": [
+      {
+        "url": "\\work-17\\additional-img-1.jpg",
+        "alt_text": {
+          "sr": "Kompletna renovacija kupatila i toaleta u Utrecht-u",
+          "en": "Complete renovation of bathroom and toilet in Utrecht",
+          "nl": "Volledige renovatie van badkamer en toilet in Utrecht"
+        }
+      },
+      {
+        "url": "\\work-17\\additional-img-2.jpg",
+        "alt_text": {
+          "sr": "Kompletna renovacija kupatila i toaleta u Utrecht-u",
+          "en": "Complete renovation of bathroom and toilet in Utrecht",
+          "nl": "Volledige renovatie van badkamer en toilet in Utrecht"
+        }
+      },
+      {
+        "url": "\\work-17\\additional-img-3.jpg",
+        "alt_text": {
+          "sr": "Kompletna renovacija kupatila i toaleta u Utrecht-u",
+          "en": "Complete renovation of bathroom and toilet in Utrecht",
+          "nl": "Volledige renovatie van badkamer en toilet in Utrecht"
+        }
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "name": "work-18",
+    "project_type": {
+      "flag": "other-works",
+      "category_name": {
+        "sr": "Ostali radovi",
+        "en": "Other works",
+        "nl": "Overige werken"
+      }
+    },
+    "title": {
+      "sr": "Montaža kuhinje u Utrecht-u",
+      "en": "Kitchen assembly in Utrecht",
+      "nl": "Keukenmontage in Utrecht"
+    },
+    "description": {
+      "sr": "Ovaj projekat je obuhvatio montažu kuhinjskih elemenata u kući u Utrecht-u. Kao što možete videti na slikama ispod, neki od elemenata ove kuhinje su bili: mašina za pranje sudova, ugradna ploča za kuvanje, aspirator, kuhinjska rasveta, kao i ugradni sudoper.",
+      "en": "This project involved the assembly of kitchen elements in a house in Utrecht. As you can see in the images below, some of the elements of this kitchen were: dishwasher, built-in cooking plate, extractor hood, kitchen lighting, and built-in sink.",
+      "nl": "Dit project betrof de montage van keukenonderdelen in een huis in Utrecht. Zoals u op de onderstaande afbeeldingen kunt zien, waren enkele elementen van deze keuken: vaatwasser, ingebouwde kookplaat, afzuigkap, keukenverlichting en een ingebouwde spoelbak."
+    },
+    "showcase_img": {
+      "url": "\\work-18\\showcase.jpg",
+      "alt_text": {
+        "sr": "Montaža kuhinje u Utrecht-u",
+        "en": "Kitchen assembly in Utrecht",
+        "nl": "Keukenmontage in Utrecht"
+      }
+    },
+    "additional_imgs": [
+      {
+        "url": "\\work-18\\additional-img-1.jpg",
+        "alt_text": {
+          "sr": "Montaža kuhinje u Utrecht-u",
+          "en": "Kitchen assembly in Utrecht",
+          "nl": "Keukenmontage in Utrecht"
+        }
+      },
+      {
+        "url": "\\work-18\\additional-img-2.jpg",
+        "alt_text": {
+          "sr": "Montaža kuhinje u Utrecht-u",
+          "en": "Kitchen assembly in Utrecht",
+          "nl": "Keukenmontage in Utrecht"
+        }
+      },
+      {
+        "url": "\\work-18\\additional-img-3.jpg",
+        "alt_text": {
+          "sr": "Montaža kuhinje u Utrecht-u",
+          "en": "Kitchen assembly in Utrecht",
+          "nl": "Keukenmontage in Utrecht"
+        }
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "name": "work-19",
+    "project_type": {
+      "flag": "other-works",
+      "category_name": {
+        "sr": "Ostali radovi",
+        "en": "Other works",
+        "nl": "Overige werken"
+      }
+    },
+    "title": {
+      "sr": "Farbanje stolarije i zidova u kući u Utrecht-u",
+      "en": "Painting joinery and walls in a house in Utrecht",
+      "nl": "Schilderen van timmerwerk en muren in een huis in Utrecht"
+    },
+    "description": {
+      "sr": "Ovaj projekat je bio prilično jednostavan, a obuhvatio je farbanje stolarije i spoljnih zidova kuće u Utrecht-u sa slika ispod.",
+      "en": "This project was quite straightforward, encompassing the painting of joinery and exterior walls of a house in Utrecht, as seen in the images below.",
+      "nl": "Dit project was vrij eenvoudig en omvatte het schilderen van timmerwerk en buitenmuren van een huis in Utrecht, zoals te zien is op de onderstaande afbeeldingen."
+    },
+    "showcase_img": {
+      "url": "\\work-19\\showcase.jpg",
+      "alt_text": {
+        "sr": "Farbanje stolarije i zidova u kući u Utrecht-u",
+        "en": "Painting joinery and walls in a house in Utrecht",
+        "nl": "Schilderen van timmerwerk en muren in een huis in Utrecht"
+      }
+    },
+    "additional_imgs": [
+      {
+        "url": "\\work-19\\additional-img-1.jpg",
+        "alt_text": {
+          "sr": "Farbanje stolarije i zidova u kući u Utrecht-u",
+          "en": "Painting joinery and walls in a house in Utrecht",
+          "nl": "Schilderen van timmerwerk en muren in een huis in Utrecht"
+        }
+      }
+    ]
+  }
+]

@@ -153,14 +153,20 @@ header .side > .lang-btn {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    height: calc(var(--height-header) * 0.6);
-    width: auto;
+    height: calc(var(--height-header) * 0.7);
+    width: calc(var(--height-header) * 0.7);
     cursor: pointer;
-    padding: 9px;
+    padding: 6px;
     opacity: 0;
     -webkit-animation: fadeIn 0.5s ease 1s forwards;
             animation: fadeIn 0.5s ease 1s forwards;
     /* background-color: cadetblue; */
+}
+header nav > .lang-btn svg,
+header .side > .lang-btn svg {
+    height: 100%;
+    width: 100%;
+    stroke: #74624E;
 }
 header nav > .lang-btn::after,
 header .side > .lang-btn::after {
@@ -168,7 +174,7 @@ header .side > .lang-btn::after {
     content: attr(data-name);
     position: absolute;
     left: -50%;
-    bottom: -58px;
+    top: calc(100% + 4px);
     width: 86px;
     text-align: center;
     background-color: rgb(58, 58, 58);
@@ -199,6 +205,10 @@ header .side > .lang-btn::before {
 header .side > .lang-btn::before {
     left: 30%;
 }
+header nav > .lang-btn:focus-visible::after,
+header nav > .lang-btn:focus-visible::before,
+header .side > .lang-btn:focus-visible::after,
+header .side > .lang-btn:focus-visible::before,
 header nav > .lang-btn:hover::after,
 header nav > .lang-btn:hover::before,
 header .side > .lang-btn:hover::after,
@@ -206,7 +216,7 @@ header .side > .lang-btn:hover::before {
     opacity: 1;
 }
 header nav > .lang-btn.large-s {
-    right: 2.5%;
+    right: 2%;
 }
 header .side > .lang-btn.small-s {
     right: 85px;
@@ -220,10 +230,10 @@ header nav > .lang-btn #translator-icon path,
 header .side > .lang-btn #translator-icon path {
     transition: fill 0.2s ease-in-out;
 }
-header nav > .lang-btn:hover #translator-icon path,
+/* header nav > .lang-btn:hover #translator-icon path,
 header .side > .lang-btn:hover #translator-icon path {
-    fill: #fff;
-}
+    fill: rgb(58, 58, 58);
+} */
 header nav > a:last-of-type {
     margin-right: 10%;
 }
@@ -367,9 +377,12 @@ header .side aside .wrapper .dropdown > a {
     font-size: 1.25rem;
     color: var(--dark-main-color);
     text-decoration: none;
-    padding: 0.7em 0;
+    padding: 0.65em 0;
     display: flex;
     justify-content: center;
+}
+header .side aside .wrapper .dropdown > a {
+    padding: 0.7em 0;
 }
 header nav .wrapper .dropdown > a:last-child {
     padding-bottom: 1em;
@@ -380,6 +393,7 @@ header nav .wrapper .dropdown > a .txt {
     width: -webkit-max-content;
     width: -moz-max-content;
     width: max-content;
+    padding-bottom: 2px;
     border-width: 2px;
     border-style: solid;
     border-color: transparent transparent var(--dark-main-color) transparent;
@@ -387,10 +401,10 @@ header nav .wrapper .dropdown > a .txt {
 header nav .wrapper .dropdown > a .txt::after {
     content: '';
     position: absolute;
-    bottom: -2px;
+    bottom: -3px;
     left: -2px;
     right: -2px;
-    height: 2px;
+    height: 4px;
     background-color: var(--light-main-color);
     transition: left 0.5s ease;
     z-index: 0;
@@ -687,11 +701,11 @@ header .side aside .wrapper .triangle {
     header nav .wrapper .dropdown > a {
         font-size: 1.15rem;
     }
-    header nav > .lang-btn{
-        padding: 6px;
+    header nav > .lang-btn {
+        padding: 4px;
     }
     header .side > .lang-btn {
-        padding: 5px;
+        padding: 2px;
     }
     header nav > .lang-btn::after {
         left: -80%;
@@ -751,6 +765,7 @@ header .side aside .wrapper .triangle {
     }
     header nav .wrapper .dropdown > a {
         font-size: 1.05rem;
+        padding: 0.65rem 0;
     }
     header nav .wrapper .triangle {
         border-width: 6px;

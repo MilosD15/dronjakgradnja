@@ -5,7 +5,7 @@
                     1. Basic styling
                     2. Variables
                     3. Selection styling
-                    4. Scrillbar styling
+                    4. Scrollbar styling
                     5. Main container styling
                     6. styling pop-up for large slider images
                     7. styling btn for opening pop-up for large slider images
@@ -17,10 +17,6 @@
   
   */
 /* 1. BASIC STYLING */
-@import url('https://fonts.googleapis.com/css2?family=Rosario:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
-
 *, *::before, *::after {
     box-sizing: border-box;
     margin: 0;
@@ -33,8 +29,11 @@ body, html {
     overflow-y: auto;
     /* background-color: white; */
 }
-body {
-    overflow-y: hidden;
+body.overflow-hidden, 
+html.overflow-hidden {
+    overflow: hidden;
+    max-height: 100vh;
+    max-width: 100%;
 }
 /* 2. VARIABLES */
 :root {
@@ -54,11 +53,11 @@ body {
     --services-sliders-width: 550px;
 }
 /* 3. SELECTION STYLING */
-::-moz-selection:not(main .services .electrican_works) {
+::-moz-selection:not(main .services .electrician_works) {
     background-color: white;
     color: var(--dark-main-color);
 }
-::selection:not(main .services .electrican_works) {
+::selection:not(main .services .electrician_works) {
     background-color: white;
     color: var(--dark-main-color);
 }
@@ -108,9 +107,10 @@ main {
 #beginning:target,
 #about:target,
 #why_sec:target,
-#contact_sec:target,
+#contact:target,
 #PW:target, #EW:target,
-#GW:target, #AW:target {
+#GW:target, #AW:target,
+#projects:target {
     scroll-margin-top: var(--height-header);
 }
 /* 6. styling pop-up for large slider images */
@@ -134,7 +134,9 @@ main {
 }
 .largeImage .fas {
     position: absolute;
-    font-size: 3rem;
+    /* font-size: 3rem; */
+    width: 4.5rem;
+    height: 4.5rem;
     cursor: pointer;
     padding: 0.3em;
     /* background-color: blanchedalmond; */
@@ -166,6 +168,8 @@ main {
     right: 2%;
     top: 2%;
     z-index: -1;
+    width: 3.5rem !important;
+    height: 3.5rem !important;
 }
 .largeImage .image {
     position: absolute;
@@ -362,14 +366,16 @@ main {
 .ResWrapper .con > .label:focus {
     background-color: rgb(233, 233, 233);
 }
-.ResWrapper .con > .label > i.fas {
+.ResWrapper .con > .label > svg {
     position: absolute;
     top: 50%;
+    width: 2.2rem;
+    height: 2.2rem;
     transform: translateY(-50%);
     right: 10px;
     transition: transform 0.5s ease;
 }
-.ResWrapper .con > .label > i.fas.open {
+.ResWrapper .con > .label > svg.open {
     transform: translateY(-50%) rotate(180deg);
 }
 .ResWrapper .con > .links::-webkit-scrollbar {
@@ -456,11 +462,12 @@ main {
     opacity: 1;
     pointer-events: all;
 }
-.langWrapper > i.fa-times {
+.langWrapper > svg.fa-times {
     position: absolute;
-    top: 10px;
-    right: 10px;
-    font-size: 2.5rem;
+    top: 20px;
+    right: 20px;
+    width: 3.5rem;
+    height: 3.5rem;
     /* background-color: blue; */
     padding: 0.2em 0.4em;
     cursor: pointer;
@@ -706,7 +713,8 @@ main {
 }
 @media screen and (max-width: 700px) {
     .largeImage .fas {
-        font-size: 2rem;
+        width: 5rem;
+        height: 5rem;
     }
     .largeImage .image {
         top: 50%;
@@ -719,9 +727,6 @@ main {
     .largeImage .fa-chevron-right {
         right: 20%;
         top: 85%;
-    }
-    .largeImage .fas {
-        font-size: 2.5rem;
     }
 }
 @media screen and (max-width: 650px) {
@@ -779,9 +784,12 @@ main {
         font-size: 1.5rem;
     }
     .ResWrapper .con > p,
-    .ResWrapper .con > .links a,
-    .ResWrapper .con > .label > i.fas {
+    .ResWrapper .con > .links a {
         font-size: 1rem;
+    }
+    .ResWrapper .con > .label > svg {
+        width: 1.8rem;
+        height: 1.8rem;
     }
     .ResWrapper .con > .label {
         font-size: 1.1rem;

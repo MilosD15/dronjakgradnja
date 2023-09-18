@@ -4,25 +4,23 @@
                     1. general styles for all services
                     2. SPECIFIC STYLES
                         2.1 painter and gypsum works section
-                        2.2 electrican and additional works section
+                        2.2 electrician and additional works section
                     3. ANIMATIONS
                     4. MEDIA QUERIES
 
 */
 /* 1. GENERAL STYLES FOR ALL SERVICES */
 main .services {
-    height: var(--services-section-height);
+    /* height: var(--services-section-height); */
     width: 100%;
     background-color: white;
 }
 main .services .service {
     width: 100%;
-    height: auto;
 }
 main .services .service .text {
     font-family: "Rosario", sans-serif;
     width: 50%;
-    height: 500px;
     background-color: inherit;
     padding: 7% 0 5% 5%;
     display: flex;
@@ -58,9 +56,7 @@ main .services .service .text .wrapper ul li:first-child {
     margin-top: .7em;
 }
 main .services .service .images {
-    float: left;
     width: 50%;
-    height: 500px;
     background-color: inherit;
     position: relative;
 }
@@ -78,21 +74,23 @@ main .services .service .images .slider .btn {
     height: auto;
     cursor: pointer;
 }
-main .services .service .images .slider .btn i.fas {
+main .services .service .images .slider .btn > svg {
     color: rgb(58, 58, 58);
     position: absolute;
-    font-size: 2rem;
+    /* font-size: 2rem; */
+    width: 3.2rem;
+    height: 3.2rem;
     top: 50%;
     transform: translateY(-50%);
     /* background-color: khaki; */
     z-index: 2;
     transition: color 0.4s ease;
 }
-main .services .service .images .slider .btn i.left {
-    left: 2px;
+main .services .service .images .slider .btn.left-btn > svg {
+    left: -0.8rem;
 }
-main .services .service .images .slider .btn i.right {
-    right: 2px;
+main .services .service .images .slider .btn.right-btn > svg {
+    right: -0.8rem;
 }
 main .services .service .images .slider .btn .half-circle {
     position: absolute;
@@ -129,8 +127,8 @@ main .services .service .images .slider .disabled {
 main .services .service .images .slider .disabled .half-circle {
     background-color: rgb(228, 228, 228);
 }
-main .services .service .images .slider .disabled i.fas {
-    color: rgb(83, 83, 83);
+main .services .service .images .slider .disabled > svg {
+    stroke: rgb(83, 83, 83);
 }
 /* 2. SPECIFIC STYLES */
 /* 2.1 painter and gypsum works section */
@@ -167,51 +165,51 @@ main .services .gypsum_works .images .gypsum_slider {
     opacity: 0;
     box-shadow: 0 0 6px 6px white;
 }
-/* 2.2 electrican and additional works section */
-main .services .electrican_works ::-moz-selection, main .services .additional ::-moz-selection {
+/* 2.2 electrician and additional works section */
+main .services .electrician_works ::-moz-selection, main .services .additional ::-moz-selection {
     background-color: var(--light-main-color);
     color: var(--dark-main-color);
 }
-main .services .electrican_works ::selection,
+main .services .electrician_works ::selection,
 main .services .additional ::selection {
     background-color: var(--light-main-color);
     color: var(--dark-main-color);
 }
-main .services .electrican_works,
+main .services .electrician_works,
 main .services .additional {
     background-color: white;
 }
-main .services .electrican_works .text,
+main .services .electrician_works .text,
 main .services .additional .text {
     float: right;
     padding-top: 8%;
 }
-main .services .electrican_works .text .wrapper h1,
+main .services .electrician_works .text .wrapper h1,
 main .services .additional .text .wrapper h1,
-main .services .electrican_works .text .wrapper ul,
+main .services .electrician_works .text .wrapper ul,
 main .services .additional .text .wrapper ul,
-main .services .electrican_works .text .wrapper ul .first-li,
+main .services .electrician_works .text .wrapper ul .first-li,
 main .services .additional .text .wrapper ul .first-li,
-main .services .electrican_works .text .wrapper ul .second-li,
+main .services .electrician_works .text .wrapper ul .second-li,
 main .services .additional .text .wrapper ul .second-li,
-main .services .electrican_works .text .wrapper ul .third-li,
+main .services .electrician_works .text .wrapper ul .third-li,
 main .services .additional .text .wrapper ul .third-li {
     transform: translateX(200px);
     opacity: 0;
 }
-main .services .electrican_works .text .wrapper ul {
+main .services .electrician_works .text .wrapper ul {
     list-style-image: url("../images/list-style-image-electrician-large-screen.png");
 }
 main .services .additional .text .wrapper ul {
     list-style-image: url("../images/list-style-image-additional-large-screen.png");
 }
-main .services .electrican_works .images .electrican_slider {
+main .services .electrician_works .images .electrician_slider {
     border: 5px solid #9F4C16;
 }
 main .services .additional .images .additional_slider {
     border: 5px solid #EAAC6D;
 }
-main .services .electrican_works .images .electrican_slider,
+main .services .electrician_works .images .electrician_slider,
 main .services .additional .images .additional_slider {
     transform: translate(-200px, -50%);
     opacity: 0;
@@ -293,7 +291,8 @@ main .services .additional .images .additional_slider {
 }
 @media screen and (max-width: 1150px) {
     main .services .service .text,
-    main .services .service .images {
+    main .services .service .images,
+    main .services .service {
         height: 450px;
     }
     main .services .service .text .wrapper h1 {
@@ -319,7 +318,7 @@ main .services .additional .images .additional_slider {
     main .services .service .text .wrapper {
         width: 100%;
     }
-    main .services .electrican_works .text,
+    main .services .electrician_works .text,
     main .services .additional .text {
         padding-top: 9%;
     }
@@ -329,12 +328,12 @@ main .services .additional .images .additional_slider {
     main .services .additional .text {
         width: 45%;
     }
-    /* main .services .electrican_works .text .wrapper h1,
+    /* main .services .electrician_works .text .wrapper h1,
     main .services .additional .text .wrapper h1 {
         padding-left: 1em;
         padding-right: 0.9em;
     } */
-    main .services .electrican_works .text .wrapper ul,
+    main .services .electrician_works .text .wrapper ul,
     main .services .additional .text .wrapper ul {
         padding-left: 0.7em;
         padding-right: 1.2em;
@@ -347,7 +346,7 @@ main .services .additional .images .additional_slider {
     main .services .service .text .wrapper h1 {
         padding-bottom: 1em;
     }
-    main .services .electrican_works .text,
+    main .services .electrician_works .text,
     main .services .additional .text {
         padding-top: 10%;
     }
@@ -362,7 +361,7 @@ main .services .additional .images .additional_slider {
     main .services .painting .text .wrapper ul {
         list-style-image: url("../images/list-style-image-painting-small-screen.png");
     }
-    main .services .electrican_works .text .wrapper ul {
+    main .services .electrician_works .text .wrapper ul {
         list-style-image: url("../images/list-style-image-electrician-small-screen.png");
     }
     main .services .gypsum_works .text .wrapper ul {
@@ -372,7 +371,8 @@ main .services .additional .images .additional_slider {
         list-style-image: url("../images/list-style-image-additional-small-screen.png");
     }
     main .services .service .text,
-    main .services .service .images {
+    main .services .service .images,
+    main .services .service {
         height: 380px;
     }
     main .services .additional .text {
@@ -386,7 +386,7 @@ main .services .additional .images .additional_slider {
     main .services .service .text .wrapper ul li {
         margin-top: .3em;
     }
-    main .services .electrican_works .text {
+    main .services .electrician_works .text {
         padding-top: 12%;
     }
     main .services .additional .text {
@@ -404,8 +404,15 @@ main .services .additional .images .additional_slider {
     main .services .service .images .slider {
         aspect-ratio: 16/11;
     }
-    main .services .service .images .slider .btn i.fas {
-        font-size: 1.8rem;
+    main .services .service .images .slider .btn > svg {
+        width: 2.8rem;
+        height: 2.8rem;
+    }
+    main .services .service .images .slider .btn.left-btn > svg {
+        left: -0.7rem;
+    }
+    main .services .service .images .slider .btn.right-btn > svg {
+        right: -0.7rem;
     }
     main .services .service .images .slider .btn .half-circle {
         width: 60px;
@@ -423,6 +430,12 @@ main .services .additional .images .additional_slider {
     }
 }
 @media screen and (max-width: 750px) {
+    main .services .service {
+        height: auto;
+    }
+    main .services .service .responsive-wrapper {
+        flex-direction: column;
+    }
     main .services .service .text {
         height: auto;
         justify-content: flex-start;
@@ -452,11 +465,18 @@ main .services .additional .images .additional_slider {
         aspect-ratio: 16/11;
         height: auto;
     }
-    /* main .services .electrican_works .images .electrican_slider {
+    /* main .services .electrician_works .images .electrician_slider {
         width: 85%;
     } */
-    main .services .service .images .slider .btn i.fas {
-        font-size: 2rem;
+    main .services .service .images .slider .btn > svg {
+        width: 3.2rem;
+        height: 3.2rem;
+    }
+    main .services .service .images .slider .btn.left-btn > svg {
+        left: -0.8rem;
+    }
+    main .services .service .images .slider .btn.right-btn > svg {
+        right: -0.8rem;
     }
     main .services .service .images .slider .btn .half-circle {
         width: 70px;
@@ -471,7 +491,7 @@ main .services .additional .images .additional_slider {
     main .services .painting .text .wrapper ul {
         list-style-image: url("../images/list-style-image-painting-large-screen.png");
     }
-    main .services .electrican_works .text .wrapper ul {
+    main .services .electrician_works .text .wrapper ul {
         list-style-image: url("../images/list-style-image-electrician-large-screen.png");
     }
     main .services .gypsum_works .text .wrapper ul {
@@ -480,18 +500,18 @@ main .services .additional .images .additional_slider {
     main .services .additional .text .wrapper ul {
         list-style-image: url("../images/list-style-image-additional-large-screen.png");
     }
-    main .services .electrican_works .text .wrapper h1,
+    main .services .electrician_works .text .wrapper h1,
     main .services .additional .text .wrapper h1 {
         padding-right: 0;
         padding-left: 0.9em;
     }
-    main .services .electrican_works .text .wrapper ul,
+    main .services .electrician_works .text .wrapper ul,
     main .services .additional .text .wrapper ul {
         padding-right: 0;
         padding-left: 1.2em;
     }
     main .services .painting .text,
-    main .services .electrican_works .text {
+    main .services .electrician_works .text {
         padding-top: 7%;
     }
 }
@@ -510,8 +530,15 @@ main .services .additional .images .additional_slider {
     main .services .service .text .wrapper ul {
         font-size: 1.3rem;
     }
-    main .services .service .images .slider .btn i.fas {
-        font-size: 1.8rem;
+    main .services .service .images .slider .btn > svg {
+        width: 2.8rem;
+        height: 2.8rem;
+    }
+    main .services .service .images .slider .btn.left-btn > svg {
+        left: -0.7rem;
+    }
+    main .services .service .images .slider .btn.right-btn > svg {
+        right: -0.7rem;
     }
     main .services .service .images .slider .btn .half-circle {
         width: 60px;
@@ -535,7 +562,7 @@ main .services .additional .images .additional_slider {
     main .services .painting .text .wrapper ul {
         list-style-image: url("../images/list-style-image-painting-small-screen.png");
     }
-    main .services .electrican_works .text .wrapper ul {
+    main .services .electrician_works .text .wrapper ul {
         list-style-image: url("../images/list-style-image-electrician-small-screen.png");
     }
     main .services .gypsum_works .text .wrapper ul {
@@ -556,8 +583,15 @@ main .services .additional .images .additional_slider {
     :root {
         --services-sliders-width: 90%;
     }
-    main .services .service .images .slider .btn i.fas {
-        font-size: 1.6rem;
+    main .services .service .images .slider .btn > svg {
+        width: 2.4rem;
+        height: 2.4rem;
+    }
+    main .services .service .images .slider .btn.left-btn > svg {
+        left: -0.6rem;
+    }
+    main .services .service .images .slider .btn.right-btn > svg {
+        right: -0.6rem;
     }
     main .services .service .images .slider .btn .half-circle {
         width: 50px;

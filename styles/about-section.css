@@ -2,40 +2,42 @@
                         Table of contents
 
                     1. about-us section styling
-                    2. media queries
+                    2. animations
+                    3. media queries
 
 */
 /* 1. ABOUT US SECTION STYLING */
 main section.about-us {
-    height: var(--about-section-height);
     width: 100%;
     background-color: var(--mid-theme-color);
+    display: flex;
+    flex-direction: row;
 }
 main section.about-us .text {
     padding: 2rem;
-    float: left;
     width: 50%;
     color: white;
     font-family: "Rosario", sans-serif;
-    padding-bottom: 0;
 }
 main section.about-us .text h1 {
     font-size: 2.3rem;
-    padding: 1em 1em 0.5em 1em;
+    padding: 0.5em;
+    padding-top: .7em;
+    padding-left: 0.4em;
     color: white;
     font-family: "Rosario", sans-serif;
     font-weight: 200;
 }
 main section.about-us .text p {
     font-size: 1.7rem;
-    padding: 1em;
+    padding: 0.6em;
     color: white;
     font-family: "Rosario", sans-serif;
     transform: translateX(-200px);
     opacity: 0;
 }
 main section.about-us .text p:last-child {
-    padding-bottom: 0;
+    padding-bottom: 1.5rem;
 }
 main section.about-us .text p a {
     position: relative;
@@ -62,8 +64,7 @@ main section.about-us .text p a:focus::after {
     left: calc(100% + 6px);
 }
 main section.about-us .image {
-    height: inherit;
-    float: left;
+    height: 520px;
     width: 50%;
     display: flex;
     justify-content: center;
@@ -71,32 +72,84 @@ main section.about-us .image {
     transform: translateX(200px);
     opacity: 0;
 }
-main section.about-us .image img {
+main section.about-us .image .images-mosaic {
     height: 80%;
-    width: auto;
+    aspect-ratio: 1 / 1;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
 }
-/* 2. MEDIA QUERIES */
-@media screen and (max-width: 1330px) {
-    main section.about-us .text p {
-        padding: 0.6em;
+main section.about-us .image .images-mosaic > div {
+    aspect-ratio: 1 / 1;
+    position: relative;
+}
+main section.about-us .image .images-mosaic > div.radius-top-left > img {
+    border-top-left-radius: 10px;
+}
+main section.about-us .image .images-mosaic > div.radius-top-right > img {
+    border-top-right-radius: 10px;
+}
+main section.about-us .image .images-mosaic > div.radius-bottom-left > img {
+    border-bottom-left-radius: 10px;
+}
+main section.about-us .image .images-mosaic > div.radius-bottom-right > img {
+    border-bottom-right-radius: 10px;
+}
+main section.about-us .image .images-mosaic img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(1);
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    box-shadow: none;
+    border-radius: 0;
+    transition: 
+        transform 400ms ease,
+        border-radius 400ms ease,
+        box-shadow 400ms ease;
+    z-index: 1;
+}
+main section.about-us .image .images-mosaic img:hover {
+    transform: translate(-50%, -50%) scale(1.2);
+    border-radius: 10px;
+    box-shadow: 
+        2px 2px 25px hsla(0, 0%, 100%, 0.5),
+        -2px 2px 25px hsla(0, 0%, 100%, 0.5),
+        2px -2px 25px hsla(0, 0%, 100%, 0.5),
+        -2px -2px 25px hsla(0, 0%, 100%, 0.5);
+}
+/* 2. ANIMATIONS */
+@keyframes rotate4 {
+    100% {
+        transform: translate(-50%, -50%) rotate(360deg);
     }
 }
-@media screen and (max-width: 1150px) {
-    main section.about-us .text h1 {
-        padding: 0.6em;
+@keyframes dash4 {
+    0% {
+        stroke-dasharray: 1, 200;
+        stroke-dashoffset: 0;
+    }
+
+    50% {
+        stroke-dasharray: 90, 200;
+        stroke-dashoffset: -35px;
+    }
+
+    100% {
+        stroke-dashoffset: -125px;
     }
 }
+/* 3. MEDIA QUERIES */
 @media screen and (max-width: 1000px) {
-    :root {
-        --about-section-height: 440px;
-    }
     main section.about-us .text h1 {
         font-size: 2.1rem;
     }
     main section.about-us .text p {
         font-size: 1.5rem;
     }
-    main section.about-us .image img {
+    main section.about-us .image .images-mosaic {
         height: auto;
         width: 80%;
     }
@@ -116,9 +169,8 @@ main section.about-us .image img {
     main section.about-us .image {
         width: 40%;
     }
-    main section.about-us .image img {
-        height: auto;
-        width: 90%;
+    main section.about-us .image {
+        height: 460px;
     }
 }
 @media  screen and (max-width: 750px) {
@@ -132,25 +184,20 @@ main section.about-us .image img {
         font-size: 1.7rem;
     }
     main section.about-us .image {
-        height: 70%;
         padding-bottom: 60px;
     }
-    main section.about-us .text {
-        height: 30%;
+    main section.about-us .responsive-wrapper {
+        flex-direction: column;
     }
     main section.about-us .text,
     main section.about-us .image {
         width: 100%;
-        height: 50%;
     }
-    main section.about-us .image img {
-        width: 60%;
+    main section.about-us .image {
+        height: auto;
     }
 }
 @media  screen and (max-width: 630px) {
-    :root {
-        --about-section-height: 750px;
-    }
     main section.about-us .text h1 {
         font-size: 2rem;
     }
@@ -159,21 +206,16 @@ main section.about-us .image img {
     }
 }
 @media  screen and (max-width: 530px) {
-    :root {
-        --about-section-height: 650px;
-    }
     main section.about-us .image {
-        height: 50%;
-        padding-bottom: 20px;
+        padding-bottom: 3rem;
         background-image: linear-gradient(to bottom, transparent, var(--mid-theme-color));
-    }
-    main section.about-us .text {
-        height: 50%;
     }
     main section.about-us .text {
         padding: 1.5em;
     }
-    main section.about-us .text h1,
+    main section.about-us .text h1 {
+        padding: 0.4em;
+    }
     main section.about-us .text p {
         padding: 0.5em;
     }
@@ -184,46 +226,33 @@ main section.about-us .image img {
         font-size: 1.3rem;
     }
 }
-@media  screen and (max-width: 470px) {
-    main section.about-us .image {
-        padding-bottom: 0;
-    }
-}
 @media  screen and (max-width: 430px) {
-    :root {
-        --about-section-height: 700px;
-    }
-    main section.about-us .image img {
+    main section.about-us .image .images-mosaic {
         width: 70%;
     }
 }
 @media  screen and (max-width: 380px) {
-    :root {
-        --about-section-height: 640px;
-    }
     main section.about-us .text h1 {
         font-size: 1.6rem;
     }
     main section.about-us .text p {
         font-size: 1.1rem;
     }
-    main section.about-us .image img {
-        width: 80%;
+    main section.about-us .text {
+        padding: 1rem;
     }
-}
-@media  screen and (max-width: 300px) {
-    :root {
-        --about-section-height: 700px;
+    main section.about-us .text {
+        padding-bottom: 2rem;
+    }
+    main section.about-us .text p:last-child {
+        padding-bottom: .5rem;
+    }
+    main section.about-us .image .images-mosaic {
+        width: 80%;
     }
 }
 @media  screen and (max-width: 260px) {
     main section.about-us .text {
         margin-bottom: 10px;
-    }
-    main section.about-us .text {
-        height: 65%;
-    }
-    main section.about-us .image {
-        height: calc(35% - 10px);
     }
 }
