@@ -1,0 +1,5 @@
+RewriteEngine On
+RewriteBase /
+
+# Redirect /en, /nl, etc. to index.php without changing the URL in the browser's address bar
+RewriteRule ^([a-z]{2})/?$ index.php [L]

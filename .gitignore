@@ -1,0 +1,45 @@
+# Ignore Composer's downloaded dependencies
+/vendor/
+
+# Ignore sensitive .env files
+.env
+.env.local
+
+# IDE/Editor folders
+/.idea/          # JetBrains IDEs like PhpStorm
+*.sublime-project
+*.sublime-workspace
+.vscode/
+
+# OS generated files
+.DS_Store        # macOS
+.DS_Store?       # macOS
+._*              # macOS
+.Spotlight-V100  # macOS
+.Trashes         # macOS
+ehthumbs.db      # Windows
+Thumbs.db        # Windows
+*.swp            # Linux (Vim swap files)
+
+# Temporary and cache files/directories
+*.log
+*.swo
+*.swp
+*.bak
+*.cache
+*.tmp
+*.temp
+temp/
+cache/
+logs/
+
+# PHPUnit (if you're using it for testing)
+/phpunit.xml
+/.phpunit.result.cache
+
+# Various tools & frameworks might generate their own folders
+node_modules/
+public/hot
+public/storage
+storage/*.key
+bootstrap/cache/

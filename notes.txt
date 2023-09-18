@@ -1,0 +1,4 @@
+Sta jos treba da se uradi:
+ - postavi sajt na dronjakgradnja.nl
+      - kreiraj github repo za sajt(pokusaj da update-ujes stari github repo)
+      - pokusaj da napravis github i hostinger integraciju tako da se automatiski promene primene na sajt na hostinger-u
