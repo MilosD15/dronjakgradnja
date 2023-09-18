@@ -35,9 +35,7 @@ main .start .intro-message span {
     color: rgb(58, 58, 58);
 }
 main .start .intro-message,
-main .start .contact,
-main .start .why,
-main .start .about {
+main .start .see-projects {
     transform: translateX(-200px);
     opacity: 0;
     -webkit-animation: slideRight 1s ease 0.3s forwards;
@@ -65,21 +63,23 @@ main .start .slider .btn {
     height: auto;
     cursor: pointer;
 }
-main .start .slider .btn i.fas {
+main .start .slider .btn > svg {
     color: rgb(58, 58, 58);
     position: absolute;
-    font-size: 2rem;
+    /* font-size: 2rem; */
+    width: 3.2rem;
+    height: 3.2rem;
     top: 50%;
     transform: translateY(-50%);
     /* background-color: khaki; */
     z-index: 2;
     transition: color 0.4s ease;
 }
-main .start .slider .btn i.left {
-    left: 2px;
+main .start .slider .btn.left-btn > svg {
+    left: -0.8rem;
 }
-main .start .slider .btn i.right {
-    right: 2px;
+main .start .slider .btn.right-btn > svg {
+    right: -0.8rem;
 }
 main .start .slider .btn .half-circle {
     position: absolute;
@@ -118,59 +118,86 @@ main .start .slider .disabled {
 main .start .slider .disabled .half-circle {
     background-color: rgb(228, 228, 228);
 }
-main .start .slider .disabled i.fas {
-    color: rgb(83, 83, 83);
+main .start .slider .disabled > svg {
+    stroke: rgb(83, 83, 83);
 }
 /* 1.4 buttons styling */
 main .start .button {
-    font-size: 1.8rem;
+    width: 230px;
+    line-height: 1.4;
+    font-size: 1.6rem;
     font-family: "Rosario", sans-serif;
     position: absolute;
-    color: white;
     text-decoration: none;
-    text-shadow: 0 0 10px black;
-    padding: 0.9em 3.3em 0.9em 1.3em;
-    border-radius: 10px;
     transition: background-color 0.3s ease;
+    text-align: center;
 }
-main .start .button img {
-    position: absolute;
+main .start .see-projects {
     top: 50%;
+    left: 12%;
     transform: translateY(-50%);
-    height: 70%;
-    width: auto;
-    margin-left: 15px;
+    opacity: 0;
 }
-main .start .button img[alt="Gmail"] {
-    height: 40%;
+main .start .see-projects {
+    display: flex;
+    align-items: center;
+    padding: 0.6em 1em;
+    border: var(--mid-theme-color) solid 0.15em;
+    border-radius: 0.25em;
+    color: var(--mid-theme-color);
+    font-weight: 600;
+    cursor: pointer;
+    overflow: hidden;
+    transition: border 300ms, color 300ms;
+    user-select: none;
 }
-main .start .contact {
-    background-color: var(--contact-blue-color);
-    top: 46%;
-    left: 14%;
-    transform: translateY(-50%);
+
+main .start .see-projects p {
+    z-index: 1;
 }
-main .start .contact:hover,
-main .start .contact:focus {
-    background-color: #2b75f7;
-} 
-main .start .why {
-    background-color: var(--why-green-color);
-    left: 5%;
-    bottom: 100px;
+
+main .start .see-projects:hover {
+    color: #ffffff;
+    text-shadow: 0 0 10px black;
 }
-main .start .why:hover,
-main .start .why:focus {
-    background-color: #03a044;
+
+main .start .see-projects:active {
+    border-color: var(--dark-main-color);
 }
-main .start .about {
-    background-color: var(--about-red-color);
-    left: 25%;
-    bottom: 100px;
+
+main .start .see-projects::after, 
+main .start .see-projects::before {
+    content: "";
+    position: absolute;
+    width: 120%;
+    aspect-ratio: 1;
+    background: var(--mid-theme-color);
+    opacity: 50%;
+    border-radius: 50%;
+    transition: transform 500ms, background 300ms;
 }
-main .start .about:hover,
-main .start .about:focus {
-    background-color: #e03324;
+
+main .start .see-projects::before {
+    left: 0;
+    transform: translateX(-95%);
+}
+
+main .start .see-projects::after {
+    right: 0;
+    transform: translateX(95%);
+}
+
+main .start .see-projects:hover:before {
+    transform: translateX(-10%);
+}
+
+main .start .see-projects:hover:after {
+    transform: translateX(10%);
+}
+
+main .start .see-projects:active:before,
+main .start .see-projects:active:after {
+    background: var(--dark-main-color);
 }
 /* 2. ANIMATIONS */
 @-webkit-keyframes slideRightMessage {
@@ -254,71 +281,20 @@ main .start .about:focus {
     }
 }
 /* 3. MEDIA QUERIES */
-@media screen and (min-width: 1500px) {
-    main .start .slider {
-        height: 500px;
-    }
-    main .start .contact {
-        left: 230px;
-    }
-    main .start .why {
-        left: 90px;
-    }
-    main .start .about {
-        left: 390px;
-    }
-}
-@media screen and (max-width: 1330px) {
-    main .start .contact {
-        left: 10%;
-        top: 50%;
-    }
-    main .start .why {
-        left: 2%;
-    }
-    main .start .about {
-        left: 21%;
-    }
-}
 @media screen and (max-width: 1250px) {
-    main .start .button {
-        height: 80px;
-        width: 260px;
-        padding-right: 2rem;
-    }
-    main .start .contact {
-        left: 10%;
-        top: 35%;
-        transform: translateY(0);
-    }
-    main .start .why {
-        left: 10%;
-        top: 55%;
-        bottom: 0;
-        padding-left: 1.8em;
-    }
-    main .start .about {
-        left: 10%;
-        top: 75%;
-        bottom: 0;
-    }
-    main .start .button img[alt="Gmail"] {
-        transform: translateY(calc(-50% + 3px));
+    main .start .see-projects {
+        left: 8%;
     }
 }
 @media screen and (max-width: 1150px) {
-    main .start .contact,
-    main .start .why,
-    main .start .about {
-        left: 3%;
+    main .start .see-projects {
+        left: 4%;
     }
 }
 @media screen and (max-width: 1050px) {
     main .start .button {
-        height: 70px;
-        width: 220px;
-        font-size: 1.6rem;
-        padding-right: 2rem;
+        width: 200px;
+        font-size: 1.4rem;
     }
 }
 @media screen and (max-width: 1000px) {
@@ -329,40 +305,17 @@ main .start .about:focus {
         font-size: 1.6rem;
     }
     main .start .button {
-        height: 80px;
-        width: 260px;
-        padding-right: 2rem;
-        top: 580px;
-        margin-bottom: 20px;
+        width: max-content;
+        top: 585px;
     }
-    main .start .contact {
-        left: calc(15% - 130px);
-    }
-    main .start .why {
-        left: 50%;
-        transform: translateX(-300px);
-        opacity: 0;
-        /* animation: slideRightWhy 1s ease 0.3s forwards; */
-    }
-    main .start .about {
-        left: calc(85% - 130px);
+    main .start .see-projects {
+        left: 35%;
     }
     main .start .slider {
         bottom: 130px;
     }
 }
-@media  screen and (max-width: 900px) {
-    main .start .button {
-        height: 70px;
-        width: 220px;
-        font-size: 1.6rem;
-        padding-right: 2rem;
-    }
-    main .start .contact {
-        left: calc(20% - 130px);
-    }
-}
-@media  screen and (max-width: 800px) {
+@media screen and (max-width: 800px) {
     :root {
         --start-section-height: 720px;
     }
@@ -388,69 +341,19 @@ main .start .about:focus {
         padding-top: 20px;
     }
     main .start .button {
-        display: block;
-        float: left;
-        position: static;
-        padding-right: 1rem;
-        padding-top: 5px;
-        margin-top: 20px;
-        margin-left: 20px;
-        margin-bottom: 20px;
-        transform: translateX(0);
-    }
-    main .start .contact {
-        padding-top: 15px;
-        padding-left: 0.8em;
-        margin-left: 5%;
-    }
-    main .start .button img {
-        margin-left: 10px;
-        position: static;
-        height: 40px;
-        transform: translateY(10px);
-    }
-    main .start .button img[alt="Gmail"] {
-        height: 30px;
-        transform: translateY(5px);
-    }
-    main .start .contact,
-    main .start .why,
-    main .start .about {
-        transform: translateX(-200px);
-        opacity: 0;
-        /* animation: slideRight 1s ease 0.3s forwards; */
+        top: 606px;
     }
 }
-@media  screen and (max-width: 780px) {
+@media screen and (max-width: 780px) {
     :root {
         --start-section-height: 700px;
     }
-    main .start .button {
-        height: 60px;
-        width: 180px;
-        font-size: 1.4rem;
-        padding-right: 1rem;
-    }
-    main .start .why,
-    main .start .contact {
-        margin-left: 7%;
-    }
-    main .start .about {
-        margin-left: 6%;
-    }
-    main .start .button img {
-        height: 30px;
-    }
-    main .start .button img[alt="Gmail"] {
-        height: 20px;
-        transform: translateY(5px);
-    }
-    main .start .why,
-    main .start .about {
-        padding-top: 8px;
+    main .start .see-projects {
+        left: 32%;
+        top: 600px;
     }
 }
-@media  screen and (max-width: 750px) {
+@media screen and (max-width: 750px) {
     :root {
         --start-section-height: 620px;
     }
@@ -464,31 +367,19 @@ main .start .about:focus {
     main .start .intro-message {
         font-size: 1.4rem;
     }
-    main .start .why,
-    main .start .contact {
-        margin-left: 6%;
-    }
-    main .start .about {
-        margin-left: 5%;
+    main .start .see-projects {
+        top: 520px;
     }
 }
-@media  screen and (max-width: 700px) {
-    main .start .why,
-    main .start .contact,
-    main .start .about {
-        margin-left: 5%;
+@media screen and (max-width: 700px) {
+    main .start .see-projects {
+        left: 29%;
     }
 }
-@media  screen and (max-width: 670px) {
-    main .start .why {
-        margin-left: 3%;
+@media screen and (max-width: 630px) {
+    :root {
+        --start-section-height: 540px;
     }
-    main .start .contact,
-    main .start .about {
-        margin-left: 4%;
-    }
-}
-@media  screen and (max-width: 630px) {
     main .start .slider,
     main .start .intro-message {
         width: 500px;
@@ -499,41 +390,19 @@ main .start .about:focus {
     main .start .intro-message {
         font-size: 1.2rem;
     }
-    main .start .about {
-        margin-left: 0;
-        margin-right: 0;
-        margin-top: 0;
-        margin-left: 50%;
-        transform: translateX(-200px);
-        opacity: 0;
-        /* animation: slideRightStart 1s ease 0.3s forwards; */
-    }
-    main .start .why {
-        margin-left: 20%;
-    }
-    main .start .contact {
-        margin-left: 10%;
+    main .start .see-projects {
+        left: 25%;
+        top: 430px;
     }
 }
-@media  screen and (max-width: 570px) {
-    main .start .about {
-        margin-left: 50%;
-    }
-    main .start .contact {
-        margin-left: 8%;
+@media screen and (max-width: 570px) {
+    main .start .see-projects {
+        left: 22%;
     }
 }
-@media  screen and (max-width: 550px) {
-    main .start .about {
-        margin-left: 48%;
-    }
-    main .start .contact {
-        margin-left: 6%;
-    }
-}
-@media  screen and (max-width: 530px) {
+@media screen and (max-width: 530px) {
     :root {
-        --start-section-height: 700px;
+        --start-section-height: 500px;
     }
     main .start .slider,
     main .start .intro-message {
@@ -551,8 +420,15 @@ main .start .about:focus {
     main .start .intro-message div {
         display: inline;
     }
-    main .start .slider .btn i.fas {
-        font-size: 1.8rem;
+    main .start .slider .btn > svg {
+        width: 2.8rem;
+        height: 2.8rem;
+    }
+    main .start .slider .btn.left-btn > svg {
+        left: -0.7rem;
+    }
+    main .start .slider .btn.right-btn > svg {
+        right: -0.7rem;
     }
     main .start .slider .btn .half-circle {
         width: 60px;
@@ -564,41 +440,16 @@ main .start .about:focus {
     main .start .slider .btn div.right {
         right: -30px;
     }
-    main .start .button {
-        height: 80px;
-        width: 260px;
-        padding-right: 2rem;
-        margin-bottom: 20px;
-        font-size: 1.8rem;
-        padding: 0em 0.5em .9em 1.3em;
-    }
-    main .start .contact {
-        margin-bottom: 0;
-        padding-top: 0.4em;
-    }
-    main .start .contact,
-    main .start .why,
-    main .start .about {
-        margin-left: 50%;
+    main .start .see-projects {
+        left: 50%;
+        top: 400px;
         transform: translateX(-500px);
         opacity: 0;
-        /* animation: slideRightMessage 1s ease 0.3s forwards; */
-    }
-    main .start .why {
-        padding-left: 1.6em;
-    }
-    main .start .button img {
-        height: 55px;
-        transform: translateY(15px);
-    }
-    main .start .button img[alt="Gmail"] {
-        height: 40px;
-        transform: translateY(10px);
     }
 }
 @media  screen and (max-width: 430px) {
     :root {
-        --start-section-height: 610px;
+        --start-section-height: 450px;
     }
     main .start .slider,
     main .start .intro-message {
@@ -607,26 +458,18 @@ main .start .about:focus {
     main .start .intro-message {
         font-size: 1rem;
     }
-    main .start .button {
-        height: 70px;
-        width: 220px;
-        padding-right: 1.6rem;
-        font-size: 1.5rem;
+    main .start .see-projects {
+        top: 340px;
     }
-    main .start .contact {
-        padding-right: 0;
+    main .start .slider .btn > svg {
+        width: 2.4rem;
+        height: 2.4rem;
     }
-    main .start .why {
-        padding-left: 2em;
+    main .start .slider .btn.left-btn > svg {
+        left: -0.6rem;
     }
-    main .start .button img {
-        height: 45px;
-    }
-    main .start .button img[alt="Gmail"] {
-        height: 33px;
-    }
-    main .start .slider .btn i.fas {
-        font-size: 1.6rem;
+    main .start .slider .btn.right-btn > svg {
+        right: -0.6rem;
     }
     main .start .slider .btn .half-circle {
         width: 50px;
@@ -640,34 +483,10 @@ main .start .about:focus {
     }
 }
 @media  screen and (max-width: 330px) {
-    :root {
-        --start-section-height: 550px;
-    }
     main .start .button {
-        height: 60px;
-        width: 180px;
-        padding-right: 1rem;
-        font-size: 1.4rem;
-        padding-left: 0.8em;
-        padding-top: 0.2em;
+        width: 190px;
     }
-    main .start .contact {
-        padding-right: 0;
-        padding-top: 0.5em;
-    }
-    main .start .why {
-        padding-left: 1.5em;
-    }
-    main .start .button img {
-        height: 35px;
-        transform: translateY(10px);
-        margin-left: 5px;
-    }
-    main .start .about {
-        padding-left: 1em;
-    }
-    main .start .button img[alt="Gmail"] {
-        height: 26px;
-        transform: translateY(6px);
+    main .start .see-projects {
+        top: 315px;
     }
 }

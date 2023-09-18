@@ -6,168 +6,67 @@
                         1.2. media queries
 
 */
-/* 1. additional styling for nl_index.html */
+/* 1. additional stylings for dutch version */
 /* 1.1 START SECTION */
-main .start .contact {
-    left: 11%;
-}
-main .start .why {
-    left: 3%;
-}
+
 /* 1.2 MEDIA QUERIES */
 @media screen and (max-width: 1330px) {
-    main .start .button {
-        height: 80px;
-        width: 340px;
-        padding-right: 2rem;
-    }
-    main .start .contact {
-        left: 10%;
-        top: 35%;
-        transform: translateY(0);
-    }
-    main .start .why {
-        left: 10%;
-        top: 55%;
-        bottom: 0;
-        padding-left: 2.4em;
-    }
-    main .start .about {
-        left: 10%;
-        top: 75%;
-        bottom: 0;
-        padding-left: 3em;
-    }
+    
 }
 @media screen and (max-width: 1200px) {
-    main .start .contact,
-    main .start .why, 
-    main .start .about {
-        left: 5%;
-    }
+    
 }
 @media screen and (max-width: 1200px) {
-    main .start .contact,
-    main .start .why, 
-    main .start .about {
-        left: 2%;
-    }
+    
 }
 @media screen and (max-width: 1150px) {
     main section.about-us .text h1,
     main section.about-us .text p {
         padding: 0.4em;
     }
-    main .services .electrican_works .text,
+    main .services .electrician_works .text,
     main .services .additional .text {
         padding-top: 7%;
     }
 }
 @media screen and (max-width: 1125px) {
-    :root {
-        --start-section-height: 680px;
-    }
     header {
         --logo-width: 10%;
     }
     header nav {
         width: 90%;
     }
-    main .start .button {
-        top: 580px;
-        margin-bottom: 20px;
-    }
-    main .start .contact {
-        left: calc(15% - 130px);
-    }
-    main .start .why {
-        left: 38%;
-        transform: translateX(-300px);
-        opacity: 0;
-        width: 300px;
-        padding-left: 1.8em;
-    }
-    main .start .about {
-        left: calc(81% - 130px);
-        width: 290px;
-        padding-left: 1.8em;
-    }
-    main .start .slider {
-        bottom: 130px;
-    }
 }
 @media screen and (max-width: 1050px) {
-    main .start .contact {
-        width: 310px;
+    main .services .electrician_works .text .wrapper h1 {
+        padding: 0 0 1.5rem 0;
     }
-    main .start .why {
-        left: 37%;
-        width: 270px;
-        padding-left: 1.6em;
+}
+@media screen and (max-width: 1000px) {
+    header nav > .lang-btn::after {
+        left: -80%;
+        bottom: -40px;
     }
-    main .start .about {
-        width: 260px;
-        padding-left: 1.8em;
+    header .side > .lang-btn::after {
+        bottom: -40px;
+    }
+    main .start .see-projects {
+        left: 30%;
     }
 }
 @media screen and (max-width: 950px) {
-    :root {
-        --start-section-height: 720px;
-    }
     header nav > a,
     header nav .wrapper > a {
         font-size: 1.4rem;
     }
-    main .start .button {
-        height: 70px;
-        display: block;
-        float: left;
-        position: static;
-        padding-right: 1rem;
-        padding-top: 5px;
-        margin-top: 620px;
-        margin-left: 20px;
-        margin-bottom: 20px;
-        transform: translateX(0);
-    }
-    main .start .contact {
-        padding-top: 15px;
-        padding-left: 0.8em;
-        margin-left: 5%;
-        width: 280px;
-    }
-    main .start .why {
-        left: 37%;
-        width: 240px;
-        padding-left: 1.5em;
-    }
-    main .start .about {
-        width: 230px;
-        padding-left: 1.5em;
-    }
-    main .start .button img {
-        margin-left: 10px;
-        position: static;
-        height: 40px;
-        transform: translateY(10px);
-    }
-    main .start .button img[alt="Gmail"] {
-        height: 30px;
-        transform: translateY(5px);
-    }
-    main .start .contact,
-    main .start .why,
-    main .start .about {
-        transform: translateX(-200px);
-        opacity: 0;
-        /* animation: slideRight 1s ease 0.3s forwards; */
+}
+@media screen and (max-width: 910px) {
+    main .services .electrician_works .text .wrapper h1 {
+        transform: translateX(-20px) !important;
     }
 }
 @media  screen and (max-width: 900px) {
-    main .start .contact {
-        margin-left: 2%;
-    }
-    main .services .electrican_works .text {
+    main .services .electrician_works .text {
         padding-top: 5%;
     }
     main .services .additional .text {
@@ -175,9 +74,6 @@ main .start .why {
     }
 }
 @media  screen and (max-width: 850px) {
-    :root {
-        --start-section-height: 800px;
-    }
     header {
         --logo-width: 20%;
     }
@@ -191,217 +87,76 @@ main .start .why {
         opacity: 1;
         pointer-events: all;
     }
-    main .start .slider {
-        bottom: 220px;
-    }
-    main .start .about {
-        margin-left: 0;
-        margin-right: 0;
-        margin-top: 0;
-        margin-left: 36%;
-        transform: translateX(-200px);
-        opacity: 0;
-    }
-    main .start .why {
-        margin-left: 15%;
-    }
-    main .start .contact {
-        margin-left: 10%;
+}
+@media screen and (max-width: 830px) {
+    main .services .electrician_works .text .wrapper h1 {
+        transform: translateX(-28px) !important;
     }
 }
 @media  screen and (max-width: 800px) {
-    :root {
-        --start-section-height: 850px;
-    }
-    main .start .button {
-        margin-top: 0;
-    }
-    main .start .about {
-        margin-left: 35%;
-    }
-    main .start .why {
-        margin-left: 20px;
-        margin-top: 30px;
-    }
-    main .start .contact {
-        margin-left: 12%;
-        margin-top: 30px;
+    main .services .electrician_works .text .wrapper h1 {
+        transform: translateX(-14px) !important;
     }
 }
 @media  screen and (max-width: 780px) {
-    main .start .contact {
-        margin-left: 15%;
-        padding-left: 0.8em;
-        width: 260px;
-    }
-    main .start .why {
-        width: 220px;
-        padding-left: 1.5em;
-    }
-    main .start .about {
-        width: 210px;
-        padding-left: 1.5em;
-        margin-left: 36%;
+    main .start .see-projects {
+        left: 27%;
     }
 }
 @media  screen and (max-width: 750px) {
-    :root {
-        --start-section-height: 760px;
-    }
-    main .services .electrican_works .text,
+    main .services .electrician_works .text,
     main .services .additional .text {
         padding-top: 3.5rem;
     }
 }
-@media  screen and (max-width: 680px) {
-    main .start .contact {
-        margin-left: 10%;
-    }
-    main .start .about {
-        margin-left: 33%;
+@media  screen and (max-width: 700px) {
+    main .start .see-projects {
+        left: 24%;
     }
 }
 @media  screen and (max-width: 630px) {
-    :root {
-        --start-section-height: 670px;
-    }
-    main .start .contact {
-        margin-left: 7%;
+    main .start .see-projects {
+        left: 22%;
     }
 }
-@media  screen and (max-width: 580px) {
-    :root {
-        --start-section-height: 800px;
-    }
-    main .start .button {
-        height: 80px;
-        width: 340px;
-        padding-right: 2rem;
-        margin-bottom: 20px;
-        font-size: 1.8rem;
-        padding: 0em 0.5em .9em 1.3em;
-    }
-    main .start .contact {
-        margin-bottom: 0;
-        padding-top: 0.4em;
-    }
-    main .start .contact,
-    main .start .why,
-    main .start .about {
-        margin-left: 50%;
-        transform: translateX(-500px);
-        opacity: 0;
-        /* animation: slideRightMessage 1s ease 0.3s forwards; */
-    }
-    main .start .why {
-        padding-left: 2.4em;
-    }
-    main .start .about {
-        padding-left: 3em;
-    }
-    main .start .button img {
-        height: 55px;
-        transform: translateY(15px);
-    }
-    main .start .button img[alt="Gmail"] {
-        height: 40px;
-        transform: translateY(10px);
+@media  screen and (max-width: 570px) {
+    main .start .see-projects {
+        left: 50%;
     }
 }
 @media  screen and (max-width: 530px) {
-    :root {
-        --start-section-height: 760px;
-    }
-    main .start .button {
-        font-size: 1.5rem;
-    }
-    main .start .contact {
-        padding-top: 15px;
-        padding-left: 0.8em;
-        width: 280px;
-    }
-    main .start .why {
-        width: 280px;
-        padding-left: 2.2em;
-        padding-top: 6px;
-    }
-    main .start .about {
-        width: 280px;
-        padding-left: 2.7em;
-        padding-top: 6px;
-    }
-    main .start .button img {
-        height: 45px;
-        transform: translateY(15px);
-    }
-    main .start .button img[alt="Gmail"] {
-        height: 35px;
-        transform: translateY(10px);
-    }
-    main .services .electrican_works .text,
+    main .services .electrician_works .text,
     main .services .additional .text {
         padding-top: 2rem;
     }
 }
 @media  screen and (max-width: 460px) {
-    :root {
-        --start-section-height: 720px;
-    }
+    
 }
 @media  screen and (max-width: 410px) {
     :root {
-        --start-section-height: 650px;
+        --start-section-height: 520px;
     }
     main .start .button {
-        height: 70px;
-        font-size: 1.3rem;
-        padding: 0em 0.5em .9em 1.3em;
+        width: 190px;
     }
-    main .start .contact {
-        padding-top: 15px;
-        padding-left: 1.2em;
-        width: 260px;
-        margin-bottom: 20px;
-    }
-    main .start .why {
-        width: 260px;
-        padding-left: 2.2em;
-        padding-top: 6px;
-        margin-top: 0;
-    }
-    main .start .about {
-        width: 260px;
-        padding-left: 2.7em;
-        padding-top: 6px;
-    }
-    main .start .button img {
-        height: 40px;
-        transform: translateY(12px);
-    }
-    main .start .button img[alt="Gmail"] {
-        height: 28px;
-        transform: translateY(7px);
-        margin-left: 15px;
+    main .start .see-projects {
+        top: 350px;
     }
 }
 @media  screen and (max-width: 360px) {
     :root {
-        --start-section-height: 620px;
+        --start-section-height: 490px;
+    }
+    main .start .see-projects {
+        top: 320px;
     }
 }
 @media  screen and (max-width: 310px) {
     :root {
-        --start-section-height: 590px;
+        --start-section-height: 470px;
     }
-    main .start .contact {
-        padding-left: 1em;
-        width: 240px;
-    }
-    main .start .why {
-        width: 240px;
-        padding-left: 2.3em;
-    }
-    main .start .about {
-        width: 240px;
+    main .start .see-projects {
+        top: 300px;
     }
 }

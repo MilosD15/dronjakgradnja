@@ -204,6 +204,8 @@ footer .credits ::selection {
 }
 footer .credits .wrapper {
     opacity: 0;
+    line-height: 1.6;
+    padding: 0.4rem 1rem;
 }
 footer .credits a {
     padding: 0.5em 0;
@@ -282,7 +284,7 @@ footer .credits a:focus {
         width: 170px;
         height: 170px;
     }
-    footer .lastInfo {
+    footer .lastInfo .responsive-wrapper {
         flex-direction: column;
     }
     footer .lastInfo .footerText,
