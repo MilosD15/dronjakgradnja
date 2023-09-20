@@ -6,7 +6,7 @@ electrical work services, gypsum work services and a lot
 more... 🤝
 ## See live website 🌍
 
-Click here! -> [dronjakgradnja.netlify.app](https://dronjakgradnja.netlify.app/)
+Click here! -> [dronjakgradnja.nl](https://dronjakgradnja.nl/)
 
 
 ## About 🚀
