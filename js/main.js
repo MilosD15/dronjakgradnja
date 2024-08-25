@@ -168,12 +168,12 @@ alertBtn.addEventListener("click", e => {
 // when user changes tab in browser
 window.addEventListener("blur", () => {
     var html = document.querySelector("html");
-    if (html.lang == "en") document.title = "We're waiting for you! | Dronjak Gradnja";
-    if (html.lang == "nl") document.title = "We wachten op u! | Dronjak Gradnja";
-    if (html.lang == "sr") document.title = "Čekamo te ovde! | Dronjak Gradnja";
+    if (html.lang == "en") document.title = "We're waiting for you! | ND Binnen Renovaties";
+    if (html.lang == "nl") document.title = "We wachten op u! | ND Binnen Renovaties";
+    if (html.lang == "sr") document.title = "Čekamo te ovde! | ND Binnen Renovaties";
 });
 window.addEventListener("focus", () => {
-    document.title = "Dronjak Gradnja";
+    document.title = "ND Binnen Renovaties";
 });
 // events in resources container
 const openRes = document.querySelector("body > .ResWrapper > .con > .label");

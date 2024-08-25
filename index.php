@@ -61,7 +61,7 @@ $resources = [
     >
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="./font/rosario/addRosario.css">
     <link rel="stylesheet" href="./styles/style.css">
     <link rel="stylesheet" href="./styles/responsive-wrapper.css">
@@ -154,6 +154,17 @@ $resources = [
             }
         }
     </style>
+    
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-1NE7GSG9WX"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'G-1NE7GSG9WX');
+    </script>
+    
     <script src="./js/draggableSlider.js" defer></script>
     <script src="./js/enlargeImages.js" defer></script>
     <script src="./js/functions.js" defer></script>
@@ -164,7 +175,7 @@ $resources = [
 <body>
     <div id="loader">
         <div class="image">
-            <img src="./images/logo-loader.jpg" alt="Dronjak Gradnja Logo">
+            <img src="./images/logo-loader.jpg" alt="ND Binnen Renovaties Logo">
             <div class="circle black"></div>
             <div class="circle yellow"></div>
             <div class="circle red"></div>
@@ -254,8 +265,8 @@ $resources = [
     <header>
         <div class="responsive-wrapper inline-flex">
             <div class="con-logo">
-                <a href="#beginning" data-name="Dronjak Gradnja">
-                    <img src="./images/logo.jpg" alt="Dronjak Gradnja Logo">
+                <a href="#beginning" data-name="ND Binnen Renovaties">
+                    <img src="./images/logo.jpg" alt="ND Binnen Renovaties Logo">
                 </a>
             </div>
             <nav>
@@ -942,8 +953,8 @@ $resources = [
                 </div>
                 <div class="logoImage">
                     <div class="conImg">
-                        <a href="#beginning" data-name="Dronjak Gradnja">
-                            <img src="./images/logo-circle-bigger-res.png" alt="Dronjak Gradnja Logo">
+                        <a href="#beginning" data-name="ND Binnen Renovaties">
+                            <img src="./images/logo-circle-bigger-res.png" alt="ND Binnen Renovaties Logo">
                         </a>
                     </div>
                 </div>

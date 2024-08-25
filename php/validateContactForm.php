@@ -63,13 +63,13 @@ function sendAutomatedEmailToCustomer($email, $lang) {
   $signature = "
   <div style=\"display: flex; align-items: center; height: 140px; padding: 10px; font-family: Tahoma, Geneva, sans-serif; background-color: #ffffff; color: #000000; padding-bottom: 20px; padding-top: 20px;\">
     <img 
-      src=\"https://dronjakgradnja.nl/logo_200x200.png\" 
-      alt=\"Dronjak Gradnja Logo\"
+      src=\"https://ndbinnenrenovaties.nl/logo_200x200.png\" 
+      alt=\"ND Binnen Renovaties Logo\"
       style=\"width: 100px; height: 100px; border: 2px solid #000000; border-radius: 9999px;\"
     >
     <div style=\"margin-left: 20px; padding-top: 15px;\">
-      <h1 style=\"font-size: 1.6rem; font-weight: 400; margin: 0; margin-bottom: 2px; color: #000000;\">Miloš Dronjak</h1>
-      <p style=\"font-size: 1rem; margin: 0; font-style: italic; color: #000000;\">IT Department</p>
+      <h1 style=\"font-size: 1.6rem; font-weight: 400; margin: 0; margin-bottom: 2px; color: #000000;\">Nenad</h1>
+      <p style=\"font-size: 1rem; margin: 0; font-style: italic; color: #000000;\">Owner</p>
     </div>
   </div>
   ";
@@ -101,7 +101,7 @@ function sendEmail($from, $replyTo, $recipient, $subject, $body) {
     $mail->Port = 465; // TCP port to connect to
 
     // Recipients
-    $mail->setFrom($from);
+    $mail->setFrom($from, "ND Binnen Renovaties");
     $mail->addReplyTo($replyTo);
     $mail->addAddress($recipient); // Add a recipient
 

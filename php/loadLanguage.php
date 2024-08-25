@@ -3,9 +3,9 @@
 $LANGUAGE_TRANSCRIPTS = [
   "en" => [
     "lang" => "en",
-    "title" => "Dronjak Gradnja",
+    "title" => "ND Binnen Renovaties",
     "meta" => [
-      "keywords" => "Painter work, Gypsum work, Electrician work, Dronjak Gradnja, Dronjak, Painter, Electrician, Gypsum, Works, Building, Build-up, Electrical work, works, Work, Smoothing, Painting walls, Introducing, electrical, current, Introducing electrical current, electricity distribution, electricity, distribution, setup router, glue tiles, lay laminate floor, laminate floor, laminate, water supply, Installing kitchen-cabinets, kitchen-cabinets",
+      "keywords" => "Painter work, Gypsum work, Electrician work, ND Binnen Renovaties, Binnen, Renovaties, Painter, Electrician, Gypsum, Works, Building, Build-up, Electrical work, works, Work, Smoothing, Painting walls, Introducing, electrical, current, Introducing electrical current, electricity distribution, electricity, distribution, setup router, glue tiles, lay laminate floor, laminate floor, laminate, water supply, Installing kitchen-cabinets, kitchen-cabinets",
       "description" => "We are a company that provides you with painting services, electrician work services, gypsum work services and a lot more...",
       "author" => "MDWebDev",
     ],
@@ -173,14 +173,14 @@ $LANGUAGE_TRANSCRIPTS = [
         "imgAlt" => "Phone Call icon (black-white)",
       ],
       "email" => [
-        "text" => "office@dronjakgradnja.nl",
+        "text" => "ndbinnenrenovaties@gmail.com",
         "imgAlt" => "Gmail icon (black-white)",
       ]
     ]
   ],
   "sr" => [
     "lang" => "sr",
-    "title" => "Dronjak Gradnja",
+    "title" => "ND Binnen Renovaties",
     "meta" => [
       "keywords" => "Molerski radovi, Elektro radovi, Gipsani radovi, Gradnja, Moler, Elektricar, Gipsar, Radovi, radovi, Gletovanje, Krecenje zidova, Uvodjenje struje, postavljanje laminata, laminat, odvod i dovod vode, namestanje kuhinjskih visecih delova",
       "description" => "Mi smo firma koja vam pruza usluge molerskih radova, elektro radova, gipsanih radova i mnogo toga drugog...",
@@ -350,16 +350,16 @@ $LANGUAGE_TRANSCRIPTS = [
         "imgAlt" => "Telefonski poziv - crno-bela ikonica",
       ],
       "email" => [
-        "text" => "office@dronjakgradnja.nl",
+        "text" => "ndbinnenrenovaties@gmail.com",
         "imgAlt" => "Gmail - crno-bela ikonica",
       ]
     ]
   ],
   "nl" => [
     "lang" => "nl",
-    "title" => "Dronjak Gradnja",
+    "title" => "ND Binnen Renovaties",
     "meta" => [
-      "keywords" => "Schilderwerk, Gipswerk, Elektricienwerk, Dronjak Gradnja, Dronjak, Schilder, Elektricien, Gips, Werken, Gebouw, Opbouw, Elektrisch werk, werken, Werk, Gladmaken, Muren schilderen, Invoeren, elektrisch, stroom, elektriciteitsdistributie, elektriciteitsverdeling, elektriciteit, distributie, router instellen, tegels lijmen, laminaatvloer leggen, laminaatvloer, laminaat, watervoorziening, Keukenkasten installeren, keukenkastjes",
+      "keywords" => "Schilderwerk, Gipswerk, Elektricienwerk, ND Binnen Renovaties, Binnen, Renovaties, Schilder, Elektricien, Gips, Werken, Gebouw, Opbouw, Elektrisch werk, werken, Werk, Gladmaken, Muren schilderen, Invoeren, elektrisch, stroom, elektriciteitsdistributie, elektriciteitsverdeling, elektriciteit, distributie, router instellen, tegels lijmen, laminaatvloer leggen, laminaatvloer, laminaat, watervoorziening, Keukenkasten installeren, keukenkastjes",
       "description" => "Wij zijn een bedrijf dat schilderwerk uitvoert, elektricienwerk, gipswerk en nog veel meer ...",
       "author" => "MDWebDev",
     ],
@@ -527,7 +527,7 @@ $LANGUAGE_TRANSCRIPTS = [
         "imgAlt" => "Telefoongesprek icoon (zwart-wit)",
       ],
       "email" => [
-        "text" => "office@dronjakgradnja.nl",
+        "text" => "ndbinnenrenovaties@gmail.com",
         "imgAlt" => "Gmail icoon (zwart-wit)",
       ]
     ]        
@@ -566,8 +566,8 @@ $automatedEmail = [
     "nl" => "Bedankt voor uw bericht!",
   ],
   "body" => [
-    "en" => "Hi there,<br>Thank you for your message.<br><br>This confirms that we have received your message in good order.<br>We will convince you that you chose the right company for your project.<br>We aim to respond within the next 24 hours after receiving your query.<br><br>Till then, I wish you a pleasant day on behalf of the Dronjak Gradnja team.<br><br>Kind regards,<br><br><div style=\"font-size: 12px;\">This is an automated message, no need to reply to it.</div><br>",
-    "sr" => "Pozdrav,<br>Hvala što ste nas kontaktirali.<br><br>Ovaj e-mejl potvrđuje da smo uredno primili vašu poruku.<br>Uverićemo vas da ste izabrali pravu firmu za vaš projekat.<br>Cilj nam je da odgovorimo u naredna 24 sata nakon što smo primili vaš upit.<br><br>Do tada, želim vam prijatan dan u ime tima Dronjak Gradnja.<br><br>Srdačan pozdrav,<br><br><div style=\"font-size: 12px;\">Ovo je automatska poruka, nema potrebe da odgovarate na nju.</div><br>",
-    "nl" => "Hallo daar,<br>Dank u voor uw bericht.<br><br>Bij deze een bevestiging dat we uw bericht in goede orde hebben ontvangen.<br>We zullen u ervan overtuigen dat u het juiste bedrijf heeft gekozen voor uw project.<br>We streven ernaar om binnen 24 uur na ontvangst van uw bericht te reageren.<br><br>Tot dan wens ik u namens het Dronjak Gradnja team een prettige dag.<br><br>Met vriendelijke groet,<br><br><div style=\"font-size: 12px;\">Dit is een geautomatiseerd bericht, u hoeft hier niet op te antwoorden.</div><br>",
+    "en" => "Hi there,<br>Thank you for your message.<br><br>This confirms that we have received your message in good order.<br>We will convince you that you chose the right company for your project.<br>We aim to respond within the next 24 hours after receiving your query.<br><br>Till then, I wish you a pleasant day on behalf of the ND Binnen Renovaties team.<br><br>Kind regards,<br><br><div style=\"font-size: 12px;\">This is an automated message, no need to reply to it.</div><br>",
+    "sr" => "Pozdrav,<br>Hvala što ste nas kontaktirali.<br><br>Ovaj e-mejl potvrđuje da smo uredno primili vašu poruku.<br>Uverićemo vas da ste izabrali pravu firmu za vaš projekat.<br>Cilj nam je da odgovorimo u naredna 24 sata nakon što smo primili vaš upit.<br><br>Do tada, želim vam prijatan dan u ime tima ND Binnen Renovaties.<br><br>Srdačan pozdrav,<br><br><div style=\"font-size: 12px;\">Ovo je automatska poruka, nema potrebe da odgovarate na nju.</div><br>",
+    "nl" => "Hallo daar,<br>Dank u voor uw bericht.<br><br>Bij deze een bevestiging dat we uw bericht in goede orde hebben ontvangen.<br>We zullen u ervan overtuigen dat u het juiste bedrijf heeft gekozen voor uw project.<br>We streven ernaar om binnen 24 uur na ontvangst van uw bericht te reageren.<br><br>Tot dan wens ik u namens het ND Binnen Renovaties team een prettige dag.<br><br>Met vriendelijke groet,<br><br><div style=\"font-size: 12px;\">Dit is een geautomatiseerd bericht, u hoeft hier niet op te antwoorden.</div><br>",
   ],
 ];
